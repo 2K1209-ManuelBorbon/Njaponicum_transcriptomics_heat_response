@@ -1,0 +1,17 @@
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+2026-04-27 22:18:49 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 04/27/2026 22:18:49 *****
+2026-04-27 22:18:49 INFO:	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-04-27 22:18:49 INFO:	Running genome mode
+2026-04-27 22:18:49 ERROR:	A run with the name /crex/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/Flye/canu_busco_chr3 already exists...
+	If you are sure you wish to overwrite existing files, please use the -f (force) option
+2026-04-27 22:18:49 ERROR:	BUSCO analysis failed!
+2026-04-27 22:18:49 ERROR:	Check the logs, read the user guide (https://busco.ezlab.org/busco_userguide.html), and check the BUSCO issue board on https://gitlab.com/ezlab/busco/issues
+

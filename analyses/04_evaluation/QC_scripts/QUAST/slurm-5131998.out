@@ -1,0 +1,129 @@
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded:
+Python/3.12.3-GCCcore-13.3.0 (required by: Z3/4.13.0-GCCcore-13.3.0,
+Biopython/1.84-gfbf-2024a, AUGUSTUS/3.5.0-gfbf-2024a,
+DendroPy/5.0.1-GCCcore-13.3.0, SEPP/4.5.5-GCC-13.3.0, BUSCO/5.8.2-gfbf-2024a),
+SciPy-bundle/2024.05-gfbf-2024a (required by: Biopython/1.84-gfbf-2024a,
+AUGUSTUS/3.5.0-gfbf-2024a, BUSCO/5.8.2-gfbf-2024a)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) Python/3.12.3-GCCcore-13.3.0 => Python/2.7.18-GCCcore-13.3.0
+  2) SciPy-bundle/2024.05-gfbf-2024a => SciPy-bundle/2024.06-foss-2024a-Python-2.7.18
+
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+Lmod Warning:
+-------------------------------------------------------------------------------
+The following dependent module(s) are not currently loaded:
+Python/2.7.18-GCCcore-13.3.0 (required by:
+Tkinter/2.7.18-GCCcore-13.3.0-Python-2.7.18,
+matplotlib/2.2.5-foss-2024a-Python-2.7.18,
+QUAST/5.2.0-foss-2024a-Python-2.7.18),
+SciPy-bundle/2024.06-foss-2024a-Python-2.7.18 (required by:
+matplotlib/2.2.5-foss-2024a-Python-2.7.18)
+-------------------------------------------------------------------------------
+
+
+
+
+The following have been reloaded with a version change:
+  1) Python/2.7.18-GCCcore-13.3.0 => Python/3.12.3-GCCcore-13.3.0
+  2) SciPy-bundle/2024.06-foss-2024a-Python-2.7.18 => SciPy-bundle/2024.05-gfbf-2024a
+
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:223: SyntaxWarning: invalid escape sequence '\w'
+  value = convert_to_unicode(re.sub('[^\w\s-]', '-', value).strip())
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:224: SyntaxWarning: invalid escape sequence '\s'
+  value = convert_to_unicode(re.sub('[-\s]+', '-', value))
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:714: SyntaxWarning: invalid escape sequence '\d'
+  version_pattern = re.compile('(?P<major_version>\d+)\.(?P<minor_version>\d+)')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:754: SyntaxWarning: invalid escape sequence '\d'
+  version_pattern = re.compile('version "(\d+\.\d+)')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:614: SyntaxWarning: invalid escape sequence '\g'
+  tex_file.write('\\caption{All statistics are based on contigs of size $\geq$ %d bp, unless otherwise noted ' % qconfig.min_contig + \
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:615: SyntaxWarning: invalid escape sequence '\#'
+  '(e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}\n')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:660: SyntaxWarning: invalid escape sequence '\h'
+  row = "\hspace{5mm}" + row.lstrip()
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:662: SyntaxWarning: invalid escape sequence '\h'
+  row = "\hspace{2mm}" + row.lstrip()
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:223: SyntaxWarning: invalid escape sequence '\w'
+  value = convert_to_unicode(re.sub('[^\w\s-]', '-', value).strip())
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:224: SyntaxWarning: invalid escape sequence '\s'
+  value = convert_to_unicode(re.sub('[-\s]+', '-', value))
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:714: SyntaxWarning: invalid escape sequence '\d'
+  version_pattern = re.compile('(?P<major_version>\d+)\.(?P<minor_version>\d+)')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/qutils.py:754: SyntaxWarning: invalid escape sequence '\d'
+  version_pattern = re.compile('version "(\d+\.\d+)')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/bin/quast.py -o /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye -t 2 -l CANU,PILON /home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/assembled_genome/flye/assembly.fasta /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Flye/pilon_polished.fasta
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.14.0-611.41.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.12.3
+  CPUs number: 96
+
+Started: 2026-04-27 22:37:12
+
+Logging to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/quast.log
+
+CWD: /crex/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:614: SyntaxWarning: invalid escape sequence '\g'
+  tex_file.write('\\caption{All statistics are based on contigs of size $\geq$ %d bp, unless otherwise noted ' % qconfig.min_contig + \
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:615: SyntaxWarning: invalid escape sequence '\#'
+  '(e.g., "\# contigs ($\geq$ 0 bp)" and "Total length ($\geq$ 0 bp)" include all contigs).}\n')
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:660: SyntaxWarning: invalid escape sequence '\h'
+  row = "\hspace{5mm}" + row.lstrip()
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/lib/python2.7/site-packages/quast_libs/reporting.py:662: SyntaxWarning: invalid escape sequence '\h'
+  row = "\hspace{2mm}" + row.lstrip()
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  1  /home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/assembled_genome/flye/assembly.fasta ==> CANU
+  2  /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Flye/pilon_polished.fasta ==> PILON
+
+2026-04-27 22:37:14
+Running Basic statistics processor...
+  Contig files: 
+    1  CANU
+    2  PILON
+  Calculating N50 and L50...
+    1  CANU, N50 = 2868804, L50 = 3, auN = 2397619.8, Total length = 16800886, GC % = 42.00, # N's per 100 kbp =  0.00
+    2  PILON, N50 = 2874048, L50 = 3, auN = 2402063.4, Total length = 16829933, GC % = 41.83, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-27 22:37:16
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-04-27 22:37:16
+RESULTS:
+  Text versions of total report are saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/report.html
+  Icarus (contig browser) is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/icarus.html
+  Log is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/quast.log
+
+Finished: 2026-04-27 22:37:16
+Elapsed time: 0:00:04.164493
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

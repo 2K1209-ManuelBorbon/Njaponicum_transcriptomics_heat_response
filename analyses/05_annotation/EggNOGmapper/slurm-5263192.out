@@ -1,0 +1,48 @@
+Running eggNOG-mapper on:
+/proj/uppmax2026-1-61/nobackup/work/Manu/Braker3/braker.aa
+[1;32mFunctional annotation of hits...[0m
+#  emapper-2.1.13
+# emapper.py  -i /proj/uppmax2026-1-61/nobackup/work/Manu/Braker3/braker.aa -o eggnog_chr3 --output_dir /proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper --cpu 2 --itype proteins --go_evidence all --pfam_realign realign --data_dir /sw/data/eggNOG/5.0.0/rackham/ --override
+[1;33m  /sw/arch/eb/software/DIAMOND/2.1.11-GCC-13.3.0/bin/diamond blastp -d '/gorilla/dataset/eggNOG_data/5.0.0/rackham/eggnog_proteins.dmnd' -q '/crex/proj/uppmax2026-1-61/nobackup/work/Manu/Braker3/braker.aa' --threads 2 -o '/crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/eggnog_chr3.emapper.hits' --tmpdir '/crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/emappertmp_dmdn__mgu66c8' --sensitive --iterate -e 0.001 --top 3  --outfmt 6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp scovhsp[0m
+[1;32mRe-aligning queries to PFAM domains from orthologs[0m
+500 159.32064056396484 3.14 q/s (% mem usage: 9.00, % mem avail: 91.00)
+1000 159.32890248298645 6.28 q/s (% mem usage: 9.00, % mem avail: 91.00)
+1500 159.33406972885132 9.41 q/s (% mem usage: 9.00, % mem avail: 91.00)
+1950 159.35074758529663 12.24 q/s (% mem usage: 9.00, % mem avail: 91.00)
+[32mDone[0m
+[1;33mResult files:[0m
+   /crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/eggnog_chr3.emapper.hits
+   /crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/eggnog_chr3.emapper.seed_orthologs
+   /crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/eggnog_chr3.emapper.annotations
+   /crex/proj/uppmax2026-1-61/nobackup/work/Manu/EggNOGmapper/eggnog_chr3.emapper.pfam
+
+================================================================================
+CITATION:
+If you use this software, please cite:
+
+[1] eggNOG-mapper v2: functional annotation, orthology assignments, and domain 
+      prediction at the metagenomic scale. Carlos P. Cantalapiedra, 
+      Ana Hernandez-Plaza, Ivica Letunic, Peer Bork, Jaime Huerta-Cepas. 2021.
+      Molecular Biology and Evolution, msab293, https://doi.org/10.1093/molbev/msab293
+
+[2] eggNOG 5.0: a hierarchical, functionally and phylogenetically annotated
+      orthology resource based on 5090 organisms and 2502 viruses. Jaime
+      Huerta-Cepas, Damian Szklarczyk, Davide Heller, Ana Hernandez-Plaza,
+      Sofia K Forslund, Helen Cook, Daniel R Mende, Ivica Letunic, Thomas
+      Rattei, Lars J Jensen, Christian von Mering and Peer Bork. Nucleic Acids
+      Research, Volume 47, Issue D1, 8 January 2019, Pages D309-D314,
+      https://doi.org/10.1093/nar/gky1085 
+
+[3] Sensitive protein alignments at tree-of-life scale using DIAMOND.
+       Buchfink B, Reuter K, Drost HG. 2021.
+       Nature Methods 18, 366–368 (2021). https://doi.org/10.1038/s41592-021-01101-x
+
+e.g. Functional annotation was performed using eggNOG-mapper (version emapper-2.1.13) [1]
+ based on eggNOG orthology data [2]. Sequence searches were performed using [3].
+
+================================================================================
+
+Total hits processed: 1950
+Total time: 23140 secs
+FINISHED
+eggNOG-mapper finished

@@ -1,0 +1,69 @@
+Starting Flye assembly!
+[2026-04-17 09:43:28] INFO: Starting Flye 2.9.6-b1802
+[2026-04-17 09:43:28] INFO: >>>STAGE: configure
+[2026-04-17 09:43:28] INFO: Configuring run
+[2026-04-17 09:45:20] INFO: Total read length: 10024814876
+[2026-04-17 09:45:20] INFO: Input genome size: 16000000
+[2026-04-17 09:45:20] INFO: Estimated coverage: 626
+[2026-04-17 09:45:20] INFO: Reads N50/N90: 27021 / 7196
+[2026-04-17 09:45:20] INFO: Minimum overlap set to 7000
+[2026-04-17 09:45:20] INFO: >>>STAGE: assembly
+[2026-04-17 09:45:20] INFO: Assembling disjointigs
+[2026-04-17 09:45:20] INFO: Reading sequences
+[2026-04-17 09:46:55] INFO: Counting k-mers:
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 10:00:53] INFO: Filling index table (1/2)
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 10:39:17] INFO: Filling index table (2/2)
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 11:32:37] INFO: Extending reads
+[2026-04-17 11:39:07] INFO: Overlap-based coverage: 377
+[2026-04-17 11:39:07] INFO: Median overlap divergence: 0.0860724
+0% 30% 60% 70% 80% 90% 100% 
+[2026-04-17 19:09:52] INFO: Assembled 62 disjointigs
+[2026-04-17 19:09:54] INFO: Generating sequence
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 19:10:36] INFO: Filtering contained disjointigs
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 19:10:45] INFO: Contained seqs: 9
+[2026-04-17 19:10:46] INFO: >>>STAGE: consensus
+[2026-04-17 19:10:46] INFO: Running Minimap2
+[2026-04-17 20:52:02] INFO: Computing consensus
+[2026-04-17 22:10:19] INFO: Alignment error rate: 0.188485
+[2026-04-17 22:10:20] INFO: >>>STAGE: repeat
+[2026-04-17 22:10:20] INFO: Building and resolving repeat graph
+[2026-04-17 22:10:20] INFO: Parsing disjointigs
+[2026-04-17 22:10:20] INFO: Building repeat graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 22:11:03] INFO: Median overlap divergence: 0.0710152
+[2026-04-17 22:11:03] INFO: Parsing reads
+[2026-04-17 22:12:41] INFO: Aligning reads to the graph
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-17 22:54:46] INFO: Aligned read sequence: 8392944868 / 9049125522 (0.927487)
+[2026-04-17 22:54:46] INFO: Median overlap divergence: 0.0630233
+[2026-04-17 22:54:46] INFO: Mean edge coverage: 510
+[2026-04-17 22:54:46] INFO: Simplifying the graph
+[2026-04-17 22:54:48] INFO: >>>STAGE: contigger
+[2026-04-17 22:54:48] INFO: Generating contigs
+[2026-04-17 22:54:48] INFO: Reading sequences
+[2026-04-17 22:56:28] INFO: Generated 87 contigs
+[2026-04-17 22:56:28] INFO: Added 2 scaffold connections
+[2026-04-17 22:56:29] INFO: >>>STAGE: polishing
+[2026-04-17 22:56:29] INFO: Polishing genome (1/1)
+[2026-04-17 22:56:29] INFO: Running minimap2
+[2026-04-18 00:11:01] INFO: Separating alignment into bubbles
+[2026-04-18 01:39:44] INFO: Alignment error rate: 0.156578
+[2026-04-18 01:39:44] INFO: Correcting bubbles
+0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100% 
+[2026-04-18 09:20:49] INFO: >>>STAGE: finalize
+[2026-04-18 09:20:50] INFO: Assembly statistics:
+
+	Total length:	16800886
+	Fragments:	44
+	Fragments N50:	2868804
+	Largest frg:	3917884
+	Scaffolds:	0
+	Mean coverage:	577
+
+[2026-04-18 09:20:50] INFO: Final assembly: /proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/flye/assembly.fasta
+Flye assembly complete!

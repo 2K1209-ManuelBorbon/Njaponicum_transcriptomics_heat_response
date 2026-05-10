@@ -1,0 +1,1587 @@
+Duplicate specification "libdir=s" for option "libdir"
+RepeatMasker version 4.2.1
+Search Engine: NCBI/RMBLAST [ 2.14.1+ ]
+
+Using Master RepeatMasker Database: /sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/Libraries/famdb
+  Title    : Dfam
+  Version  : 3.9
+  Date     : 2025-03-10
+  Families : 237
+
+Traceback (most recent call last):
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 953, in main
+    args.func(args)
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 330, in command_lineage
+    totals, present = get_lineage_totals(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 276, in get_lineage_totals
+    new_counts, new_present = get_lineage_totals(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 276, in get_lineage_totals
+    new_counts, new_present = get_lineage_totals(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 264, in get_lineage_totals
+    for acc in accessions:
+TypeError: 'NoneType' object is not iterable
+Traceback (most recent call last):
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 953, in main
+    args.func(args)
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 330, in command_lineage
+    totals, present = get_lineage_totals(
+                      ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 276, in get_lineage_totals
+    new_counts, new_present = get_lineage_totals(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 276, in get_lineage_totals
+    new_counts, new_present = get_lineage_totals(
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/sw/arch/eb/software/RepeatMasker/4.2.1-foss-2024a/famdb.py", line 264, in get_lineage_totals
+    for acc in accessions:
+TypeError: 'NoneType' object is not iterable
+Species/Taxa Search:
+  Embryophyta [NCBI Taxonomy ID: 3193]
+  Lineage: root;cellular organisms;Eukaryota;Viridiplantae
+Including only curated families:
+  0 families in ancestor taxa; 0 lineage-specific families
+
+
+analyzing file /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Flye/pilon_polished.fasta
+
+Some previous RepeatMasker output files were moved to the directory 
+/proj/uppmax2026-1-61/nobackup/work/Manu/RepeatMasker/Flye/pilon_polished.fasta.preMonMay42212252026.RMoutput 
+in order not to overwrite them.
+
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 1 of 305
+identifying Simple Repeats in batch 2 of 305
+identifying matches to embryophyta sequences in batch 1 of 305
+identifying matches to embryophyta sequences in batch 2 of 305
+identifying Simple Repeats in batch 1 of 305
+identifying Simple Repeats in batch 2 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 3 of 305
+identifying matches to embryophyta sequences in batch 3 of 305
+identifying Simple Repeats in batch 4 of 305
+identifying matches to embryophyta sequences in batch 4 of 305
+identifying Simple Repeats in batch 3 of 305
+identifying Simple Repeats in batch 4 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 5 of 305
+identifying Simple Repeats in batch 6 of 305
+identifying matches to embryophyta sequences in batch 5 of 305
+identifying matches to embryophyta sequences in batch 6 of 305
+identifying Simple Repeats in batch 5 of 305
+identifying Simple Repeats in batch 6 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 7 of 305
+identifying matches to embryophyta sequences in batch 7 of 305
+identifying Simple Repeats in batch 8 of 305
+identifying matches to embryophyta sequences in batch 8 of 305
+identifying Simple Repeats in batch 7 of 305
+identifying Simple Repeats in batch 8 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 9 of 305
+identifying matches to embryophyta sequences in batch 9 of 305
+identifying Simple Repeats in batch 10 of 305
+identifying matches to embryophyta sequences in batch 10 of 305
+identifying Simple Repeats in batch 9 of 305
+identifying Simple Repeats in batch 10 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 11 of 305
+identifying matches to embryophyta sequences in batch 11 of 305
+identifying Simple Repeats in batch 12 of 305
+identifying matches to embryophyta sequences in batch 12 of 305
+identifying Simple Repeats in batch 11 of 305
+identifying Simple Repeats in batch 12 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 13 of 305
+identifying matches to embryophyta sequences in batch 13 of 305
+identifying Simple Repeats in batch 14 of 305
+identifying matches to embryophyta sequences in batch 14 of 305
+identifying Simple Repeats in batch 13 of 305
+identifying Simple Repeats in batch 14 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 15 of 305
+identifying matches to embryophyta sequences in batch 15 of 305
+identifying Simple Repeats in batch 16 of 305
+identifying matches to embryophyta sequences in batch 16 of 305
+identifying Simple Repeats in batch 15 of 305
+identifying Simple Repeats in batch 16 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 17 of 305
+identifying matches to embryophyta sequences in batch 17 of 305
+identifying Simple Repeats in batch 18 of 305
+identifying matches to embryophyta sequences in batch 18 of 305
+identifying Simple Repeats in batch 17 of 305
+identifying Simple Repeats in batch 18 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 19 of 305
+identifying matches to embryophyta sequences in batch 19 of 305
+identifying Simple Repeats in batch 20 of 305
+identifying matches to embryophyta sequences in batch 20 of 305
+identifying Simple Repeats in batch 19 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 20 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 21 of 305
+identifying matches to embryophyta sequences in batch 21 of 305
+identifying Simple Repeats in batch 22 of 305
+identifying matches to embryophyta sequences in batch 22 of 305
+identifying Simple Repeats in batch 21 of 305
+identifying Simple Repeats in batch 22 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 23 of 305
+identifying matches to embryophyta sequences in batch 23 of 305
+identifying Simple Repeats in batch 24 of 305
+identifying matches to embryophyta sequences in batch 24 of 305
+identifying Simple Repeats in batch 23 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 24 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 25 of 305
+identifying matches to embryophyta sequences in batch 25 of 305
+identifying Simple Repeats in batch 26 of 305
+identifying matches to embryophyta sequences in batch 26 of 305
+identifying Simple Repeats in batch 25 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 26 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 27 of 305
+identifying matches to embryophyta sequences in batch 27 of 305
+identifying Simple Repeats in batch 28 of 305
+identifying Simple Repeats in batch 27 of 305
+identifying matches to embryophyta sequences in batch 28 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 28 of 305
+identifying Simple Repeats in batch 29 of 305
+identifying matches to embryophyta sequences in batch 29 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 29 of 305
+identifying Simple Repeats in batch 30 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 30 of 305
+identifying Simple Repeats in batch 30 of 305
+identifying Simple Repeats in batch 31 of 305
+identifying matches to embryophyta sequences in batch 31 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 31 of 305
+identifying Simple Repeats in batch 32 of 305
+identifying matches to embryophyta sequences in batch 32 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 32 of 305
+identifying Simple Repeats in batch 33 of 305
+identifying matches to embryophyta sequences in batch 33 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 33 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 34 of 305
+identifying matches to embryophyta sequences in batch 34 of 305
+identifying Simple Repeats in batch 35 of 305
+identifying matches to embryophyta sequences in batch 35 of 305
+identifying Simple Repeats in batch 34 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 35 of 305
+identifying Simple Repeats in batch 36 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 36 of 305
+identifying Simple Repeats in batch 37 of 305
+identifying Simple Repeats in batch 36 of 305
+identifying matches to embryophyta sequences in batch 37 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 37 of 305
+identifying Simple Repeats in batch 38 of 305
+identifying matches to embryophyta sequences in batch 38 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 38 of 305
+identifying Simple Repeats in batch 39 of 305
+identifying matches to embryophyta sequences in batch 39 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 39 of 305
+identifying Simple Repeats in batch 40 of 305
+identifying matches to embryophyta sequences in batch 40 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 40 of 305
+identifying Simple Repeats in batch 41 of 305
+identifying matches to embryophyta sequences in batch 41 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 41 of 305
+identifying Simple Repeats in batch 42 of 305
+identifying matches to embryophyta sequences in batch 42 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 42 of 305
+identifying Simple Repeats in batch 43 of 305
+identifying matches to embryophyta sequences in batch 43 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 43 of 305
+identifying Simple Repeats in batch 44 of 305
+identifying matches to embryophyta sequences in batch 44 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 44 of 305
+identifying Simple Repeats in batch 45 of 305
+identifying matches to embryophyta sequences in batch 45 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 45 of 305
+identifying Simple Repeats in batch 46 of 305
+identifying matches to embryophyta sequences in batch 46 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 46 of 305
+identifying Simple Repeats in batch 47 of 305
+identifying matches to embryophyta sequences in batch 47 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 47 of 305
+identifying Simple Repeats in batch 48 of 305
+identifying matches to embryophyta sequences in batch 48 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 48 of 305
+identifying Simple Repeats in batch 49 of 305
+identifying matches to embryophyta sequences in batch 49 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 49 of 305
+identifying Simple Repeats in batch 50 of 305
+identifying matches to embryophyta sequences in batch 50 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 50 of 305
+identifying Simple Repeats in batch 51 of 305
+identifying matches to embryophyta sequences in batch 51 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 51 of 305
+identifying Simple Repeats in batch 52 of 305
+identifying matches to embryophyta sequences in batch 52 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 52 of 305
+identifying Simple Repeats in batch 53 of 305
+identifying matches to embryophyta sequences in batch 53 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 53 of 305
+identifying Simple Repeats in batch 54 of 305
+identifying matches to embryophyta sequences in batch 54 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 54 of 305
+identifying Simple Repeats in batch 55 of 305
+identifying matches to embryophyta sequences in batch 55 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 55 of 305
+identifying Simple Repeats in batch 56 of 305
+identifying matches to embryophyta sequences in batch 56 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 56 of 305
+identifying Simple Repeats in batch 57 of 305
+identifying matches to embryophyta sequences in batch 57 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 57 of 305
+identifying Simple Repeats in batch 58 of 305
+identifying matches to embryophyta sequences in batch 58 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 58 of 305
+identifying Simple Repeats in batch 59 of 305
+identifying matches to embryophyta sequences in batch 59 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 59 of 305
+identifying Simple Repeats in batch 60 of 305
+identifying matches to embryophyta sequences in batch 60 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 60 of 305
+identifying Simple Repeats in batch 61 of 305
+identifying matches to embryophyta sequences in batch 61 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 61 of 305
+identifying Simple Repeats in batch 62 of 305
+identifying matches to embryophyta sequences in batch 62 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 62 of 305
+identifying Simple Repeats in batch 63 of 305
+identifying matches to embryophyta sequences in batch 63 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 63 of 305
+identifying Simple Repeats in batch 64 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 64 of 305
+identifying Simple Repeats in batch 65 of 305
+identifying Simple Repeats in batch 64 of 305
+identifying matches to embryophyta sequences in batch 65 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 65 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 66 of 305
+identifying matches to embryophyta sequences in batch 66 of 305
+identifying Simple Repeats in batch 67 of 305
+identifying matches to embryophyta sequences in batch 67 of 305
+identifying Simple Repeats in batch 66 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 67 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 68 of 305
+identifying matches to embryophyta sequences in batch 68 of 305
+identifying Simple Repeats in batch 69 of 305
+identifying matches to embryophyta sequences in batch 69 of 305
+identifying Simple Repeats in batch 68 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 69 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 70 of 305
+identifying matches to embryophyta sequences in batch 70 of 305
+identifying Simple Repeats in batch 71 of 305
+identifying matches to embryophyta sequences in batch 71 of 305
+identifying Simple Repeats in batch 70 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 71 of 305
+identifying Simple Repeats in batch 72 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 72 of 305
+identifying Simple Repeats in batch 73 of 305
+identifying Simple Repeats in batch 72 of 305
+identifying matches to embryophyta sequences in batch 73 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 73 of 305
+identifying Simple Repeats in batch 74 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 74 of 305
+identifying Simple Repeats in batch 74 of 305
+identifying Simple Repeats in batch 75 of 305
+identifying matches to embryophyta sequences in batch 75 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 75 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 76 of 305
+identifying matches to embryophyta sequences in batch 76 of 305
+identifying Simple Repeats in batch 77 of 305
+identifying matches to embryophyta sequences in batch 77 of 305
+identifying Simple Repeats in batch 76 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 77 of 305
+identifying Simple Repeats in batch 78 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 78 of 305
+identifying Simple Repeats in batch 78 of 305
+identifying Simple Repeats in batch 79 of 305
+identifying matches to embryophyta sequences in batch 79 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 79 of 305
+identifying Simple Repeats in batch 80 of 305
+identifying matches to embryophyta sequences in batch 80 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 80 of 305
+identifying Simple Repeats in batch 81 of 305
+identifying matches to embryophyta sequences in batch 81 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 81 of 305
+identifying Simple Repeats in batch 82 of 305
+identifying matches to embryophyta sequences in batch 82 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 82 of 305
+identifying Simple Repeats in batch 83 of 305
+identifying matches to embryophyta sequences in batch 83 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 84 of 305
+identifying Simple Repeats in batch 83 of 305
+identifying matches to embryophyta sequences in batch 84 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 84 of 305
+identifying Simple Repeats in batch 85 of 305
+identifying matches to embryophyta sequences in batch 85 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 85 of 305
+identifying Simple Repeats in batch 86 of 305
+identifying matches to embryophyta sequences in batch 86 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 86 of 305
+identifying Simple Repeats in batch 87 of 305
+identifying matches to embryophyta sequences in batch 87 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 87 of 305
+identifying Simple Repeats in batch 88 of 305
+identifying matches to embryophyta sequences in batch 88 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 88 of 305
+identifying Simple Repeats in batch 89 of 305
+identifying matches to embryophyta sequences in batch 89 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 89 of 305
+identifying Simple Repeats in batch 90 of 305
+identifying matches to embryophyta sequences in batch 90 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 90 of 305
+identifying Simple Repeats in batch 91 of 305
+identifying matches to embryophyta sequences in batch 91 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 91 of 305
+identifying Simple Repeats in batch 92 of 305
+identifying matches to embryophyta sequences in batch 92 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 92 of 305
+identifying Simple Repeats in batch 93 of 305
+identifying matches to embryophyta sequences in batch 93 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 93 of 305
+identifying Simple Repeats in batch 94 of 305
+identifying matches to embryophyta sequences in batch 94 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 94 of 305
+identifying Simple Repeats in batch 95 of 305
+identifying matches to embryophyta sequences in batch 95 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 95 of 305
+identifying Simple Repeats in batch 96 of 305
+identifying matches to embryophyta sequences in batch 96 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 96 of 305
+identifying Simple Repeats in batch 97 of 305
+identifying matches to embryophyta sequences in batch 97 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 97 of 305
+identifying Simple Repeats in batch 98 of 305
+identifying matches to embryophyta sequences in batch 98 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 98 of 305
+identifying Simple Repeats in batch 99 of 305
+identifying matches to embryophyta sequences in batch 99 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 99 of 305
+identifying Simple Repeats in batch 100 of 305
+identifying matches to embryophyta sequences in batch 100 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 100 of 305
+identifying Simple Repeats in batch 101 of 305
+identifying matches to embryophyta sequences in batch 101 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 101 of 305
+identifying Simple Repeats in batch 102 of 305
+identifying matches to embryophyta sequences in batch 102 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 102 of 305
+identifying Simple Repeats in batch 103 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 103 of 305
+identifying Simple Repeats in batch 104 of 305
+identifying Simple Repeats in batch 103 of 305
+identifying matches to embryophyta sequences in batch 104 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 104 of 305
+identifying Simple Repeats in batch 105 of 305
+identifying matches to embryophyta sequences in batch 105 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 105 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 106 of 305
+identifying matches to embryophyta sequences in batch 106 of 305
+identifying Simple Repeats in batch 107 of 305
+identifying matches to embryophyta sequences in batch 107 of 305
+identifying Simple Repeats in batch 106 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 107 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 108 of 305
+identifying matches to embryophyta sequences in batch 108 of 305
+identifying Simple Repeats in batch 109 of 305
+identifying matches to embryophyta sequences in batch 109 of 305
+identifying Simple Repeats in batch 108 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 109 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 110 of 305
+identifying matches to embryophyta sequences in batch 110 of 305
+identifying Simple Repeats in batch 111 of 305
+identifying matches to embryophyta sequences in batch 111 of 305
+identifying Simple Repeats in batch 110 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 111 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 112 of 305
+identifying matches to embryophyta sequences in batch 112 of 305
+identifying Simple Repeats in batch 113 of 305
+identifying matches to embryophyta sequences in batch 113 of 305
+identifying Simple Repeats in batch 112 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 113 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 114 of 305
+identifying matches to embryophyta sequences in batch 114 of 305
+identifying Simple Repeats in batch 115 of 305
+identifying matches to embryophyta sequences in batch 115 of 305
+identifying Simple Repeats in batch 114 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 115 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 116 of 305
+identifying matches to embryophyta sequences in batch 116 of 305
+identifying Simple Repeats in batch 117 of 305
+identifying matches to embryophyta sequences in batch 117 of 305
+identifying Simple Repeats in batch 116 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 117 of 305
+identifying Simple Repeats in batch 118 of 305
+identifying matches to embryophyta sequences in batch 118 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 118 of 305
+identifying Simple Repeats in batch 119 of 305
+identifying matches to embryophyta sequences in batch 119 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 119 of 305
+identifying Simple Repeats in batch 120 of 305
+identifying matches to embryophyta sequences in batch 120 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 120 of 305
+identifying Simple Repeats in batch 121 of 305
+identifying matches to embryophyta sequences in batch 121 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 121 of 305
+identifying Simple Repeats in batch 122 of 305
+identifying matches to embryophyta sequences in batch 122 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 122 of 305
+identifying Simple Repeats in batch 123 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 123 of 305
+identifying Simple Repeats in batch 124 of 305
+identifying Simple Repeats in batch 123 of 305
+identifying matches to embryophyta sequences in batch 124 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 124 of 305
+identifying Simple Repeats in batch 125 of 305
+identifying matches to embryophyta sequences in batch 125 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 125 of 305
+identifying Simple Repeats in batch 126 of 305
+identifying matches to embryophyta sequences in batch 126 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 126 of 305
+identifying Simple Repeats in batch 127 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 127 of 305
+identifying Simple Repeats in batch 128 of 305
+identifying Simple Repeats in batch 127 of 305
+identifying matches to embryophyta sequences in batch 128 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 128 of 305
+identifying Simple Repeats in batch 129 of 305
+identifying matches to embryophyta sequences in batch 129 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 129 of 305
+identifying Simple Repeats in batch 130 of 305
+identifying matches to embryophyta sequences in batch 130 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 130 of 305
+identifying Simple Repeats in batch 131 of 305
+identifying matches to embryophyta sequences in batch 131 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 131 of 305
+identifying Simple Repeats in batch 132 of 305
+identifying matches to embryophyta sequences in batch 132 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 132 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 133 of 305
+identifying matches to embryophyta sequences in batch 133 of 305
+identifying Simple Repeats in batch 134 of 305
+identifying matches to embryophyta sequences in batch 134 of 305
+identifying Simple Repeats in batch 133 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 134 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 135 of 305
+identifying matches to embryophyta sequences in batch 135 of 305
+identifying Simple Repeats in batch 136 of 305
+identifying matches to embryophyta sequences in batch 136 of 305
+identifying Simple Repeats in batch 135 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 136 of 305
+identifying Simple Repeats in batch 137 of 305
+identifying matches to embryophyta sequences in batch 137 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 137 of 305
+identifying Simple Repeats in batch 138 of 305
+identifying matches to embryophyta sequences in batch 138 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 138 of 305
+identifying Simple Repeats in batch 139 of 305
+identifying matches to embryophyta sequences in batch 139 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 139 of 305
+identifying Simple Repeats in batch 140 of 305
+identifying matches to embryophyta sequences in batch 140 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 140 of 305
+identifying Simple Repeats in batch 141 of 305
+identifying matches to embryophyta sequences in batch 141 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 141 of 305
+identifying Simple Repeats in batch 142 of 305
+identifying matches to embryophyta sequences in batch 142 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 142 of 305
+identifying Simple Repeats in batch 143 of 305
+identifying matches to embryophyta sequences in batch 143 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 143 of 305
+identifying Simple Repeats in batch 144 of 305
+identifying matches to embryophyta sequences in batch 144 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 144 of 305
+identifying Simple Repeats in batch 145 of 305
+identifying matches to embryophyta sequences in batch 145 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 145 of 305
+identifying Simple Repeats in batch 146 of 305
+identifying matches to embryophyta sequences in batch 146 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 146 of 305
+identifying Simple Repeats in batch 147 of 305
+identifying matches to embryophyta sequences in batch 147 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 147 of 305
+identifying Simple Repeats in batch 148 of 305
+identifying matches to embryophyta sequences in batch 148 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 148 of 305
+identifying Simple Repeats in batch 149 of 305
+identifying matches to embryophyta sequences in batch 149 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 149 of 305
+identifying Simple Repeats in batch 150 of 305
+identifying matches to embryophyta sequences in batch 150 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 150 of 305
+identifying Simple Repeats in batch 151 of 305
+identifying matches to embryophyta sequences in batch 151 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 151 of 305
+identifying Simple Repeats in batch 152 of 305
+identifying matches to embryophyta sequences in batch 152 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 152 of 305
+identifying Simple Repeats in batch 153 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 153 of 305
+identifying Simple Repeats in batch 154 of 305
+identifying matches to embryophyta sequences in batch 154 of 305
+identifying Simple Repeats in batch 153 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 154 of 305
+identifying Simple Repeats in batch 155 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 155 of 305
+identifying Simple Repeats in batch 156 of 305
+identifying Simple Repeats in batch 155 of 305
+identifying matches to embryophyta sequences in batch 156 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 156 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 157 of 305
+identifying matches to embryophyta sequences in batch 157 of 305
+identifying Simple Repeats in batch 158 of 305
+identifying matches to embryophyta sequences in batch 158 of 305
+identifying Simple Repeats in batch 157 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 158 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 159 of 305
+identifying matches to embryophyta sequences in batch 159 of 305
+identifying Simple Repeats in batch 160 of 305
+identifying matches to embryophyta sequences in batch 160 of 305
+identifying Simple Repeats in batch 159 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 160 of 305
+identifying Simple Repeats in batch 161 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 161 of 305
+identifying Simple Repeats in batch 161 of 305
+identifying Simple Repeats in batch 162 of 305
+identifying matches to embryophyta sequences in batch 162 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 162 of 305
+identifying Simple Repeats in batch 163 of 305
+identifying matches to embryophyta sequences in batch 163 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 163 of 305
+identifying Simple Repeats in batch 164 of 305
+identifying matches to embryophyta sequences in batch 164 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 164 of 305
+identifying Simple Repeats in batch 165 of 305
+identifying matches to embryophyta sequences in batch 165 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 165 of 305
+identifying Simple Repeats in batch 166 of 305
+identifying matches to embryophyta sequences in batch 166 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 166 of 305
+identifying Simple Repeats in batch 167 of 305
+identifying matches to embryophyta sequences in batch 167 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 167 of 305
+identifying Simple Repeats in batch 168 of 305
+identifying matches to embryophyta sequences in batch 168 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 168 of 305
+identifying Simple Repeats in batch 169 of 305
+identifying matches to embryophyta sequences in batch 169 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 169 of 305
+identifying Simple Repeats in batch 170 of 305
+identifying matches to embryophyta sequences in batch 170 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 171 of 305
+identifying Simple Repeats in batch 170 of 305
+identifying matches to embryophyta sequences in batch 171 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 171 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 172 of 305
+identifying matches to embryophyta sequences in batch 172 of 305
+identifying Simple Repeats in batch 173 of 305
+identifying Simple Repeats in batch 172 of 305
+identifying matches to embryophyta sequences in batch 173 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 173 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 174 of 305
+identifying matches to embryophyta sequences in batch 174 of 305
+identifying Simple Repeats in batch 175 of 305
+identifying matches to embryophyta sequences in batch 175 of 305
+identifying Simple Repeats in batch 174 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 175 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 176 of 305
+identifying matches to embryophyta sequences in batch 176 of 305
+identifying Simple Repeats in batch 177 of 305
+identifying matches to embryophyta sequences in batch 177 of 305
+identifying Simple Repeats in batch 176 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 177 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 178 of 305
+identifying matches to embryophyta sequences in batch 178 of 305
+identifying Simple Repeats in batch 179 of 305
+identifying matches to embryophyta sequences in batch 179 of 305
+identifying Simple Repeats in batch 178 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 179 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 180 of 305
+identifying matches to embryophyta sequences in batch 180 of 305
+identifying Simple Repeats in batch 181 of 305
+identifying matches to embryophyta sequences in batch 181 of 305
+identifying Simple Repeats in batch 180 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 181 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 182 of 305
+identifying matches to embryophyta sequences in batch 182 of 305
+identifying Simple Repeats in batch 183 of 305
+identifying Simple Repeats in batch 182 of 305
+identifying matches to embryophyta sequences in batch 183 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 183 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 184 of 305
+identifying matches to embryophyta sequences in batch 184 of 305
+identifying Simple Repeats in batch 185 of 305
+identifying Simple Repeats in batch 184 of 305
+identifying matches to embryophyta sequences in batch 185 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 185 of 305
+identifying Simple Repeats in batch 186 of 305
+identifying matches to embryophyta sequences in batch 186 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 186 of 305
+identifying Simple Repeats in batch 187 of 305
+identifying matches to embryophyta sequences in batch 187 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 187 of 305
+identifying Simple Repeats in batch 188 of 305
+identifying matches to embryophyta sequences in batch 188 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 188 of 305
+identifying Simple Repeats in batch 189 of 305
+identifying matches to embryophyta sequences in batch 189 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 189 of 305
+identifying Simple Repeats in batch 190 of 305
+identifying matches to embryophyta sequences in batch 190 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 190 of 305
+identifying Simple Repeats in batch 191 of 305
+identifying matches to embryophyta sequences in batch 191 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 191 of 305
+identifying Simple Repeats in batch 192 of 305
+identifying matches to embryophyta sequences in batch 192 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 192 of 305
+identifying Simple Repeats in batch 193 of 305
+identifying matches to embryophyta sequences in batch 193 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 193 of 305
+identifying Simple Repeats in batch 194 of 305
+identifying matches to embryophyta sequences in batch 194 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 194 of 305
+identifying Simple Repeats in batch 195 of 305
+identifying matches to embryophyta sequences in batch 195 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 195 of 305
+identifying Simple Repeats in batch 196 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 196 of 305
+identifying Simple Repeats in batch 196 of 305
+identifying Simple Repeats in batch 197 of 305
+identifying matches to embryophyta sequences in batch 197 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 197 of 305
+identifying Simple Repeats in batch 198 of 305
+
+Checking for E. coli insertion elements
+identifying matches to embryophyta sequences in batch 198 of 305
+identifying Simple Repeats in batch 198 of 305
+identifying Simple Repeats in batch 199 of 305
+identifying matches to embryophyta sequences in batch 199 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 199 of 305
+identifying Simple Repeats in batch 200 of 305
+identifying matches to embryophyta sequences in batch 200 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 200 of 305
+identifying Simple Repeats in batch 201 of 305
+identifying matches to embryophyta sequences in batch 201 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 201 of 305
+identifying Simple Repeats in batch 202 of 305
+identifying matches to embryophyta sequences in batch 202 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 202 of 305
+identifying Simple Repeats in batch 203 of 305
+identifying matches to embryophyta sequences in batch 203 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 203 of 305
+identifying Simple Repeats in batch 204 of 305
+identifying matches to embryophyta sequences in batch 204 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 204 of 305
+identifying Simple Repeats in batch 205 of 305
+identifying matches to embryophyta sequences in batch 205 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 205 of 305
+identifying Simple Repeats in batch 206 of 305
+identifying matches to embryophyta sequences in batch 206 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 206 of 305
+identifying Simple Repeats in batch 207 of 305
+identifying matches to embryophyta sequences in batch 207 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 207 of 305
+identifying Simple Repeats in batch 208 of 305
+identifying matches to embryophyta sequences in batch 208 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 208 of 305
+identifying Simple Repeats in batch 209 of 305
+identifying matches to embryophyta sequences in batch 209 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 209 of 305
+identifying Simple Repeats in batch 210 of 305
+identifying matches to embryophyta sequences in batch 210 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 210 of 305
+identifying Simple Repeats in batch 211 of 305
+identifying matches to embryophyta sequences in batch 211 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 211 of 305
+identifying Simple Repeats in batch 212 of 305
+identifying matches to embryophyta sequences in batch 212 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 212 of 305
+identifying Simple Repeats in batch 213 of 305
+identifying matches to embryophyta sequences in batch 213 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 213 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 214 of 305
+identifying matches to embryophyta sequences in batch 214 of 305
+identifying Simple Repeats in batch 215 of 305
+identifying matches to embryophyta sequences in batch 215 of 305
+identifying Simple Repeats in batch 214 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 215 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 216 of 305
+identifying matches to embryophyta sequences in batch 216 of 305
+identifying Simple Repeats in batch 217 of 305
+identifying matches to embryophyta sequences in batch 217 of 305
+identifying Simple Repeats in batch 216 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 217 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 218 of 305
+identifying matches to embryophyta sequences in batch 218 of 305
+identifying Simple Repeats in batch 219 of 305
+identifying matches to embryophyta sequences in batch 219 of 305
+identifying Simple Repeats in batch 218 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 219 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 220 of 305
+identifying matches to embryophyta sequences in batch 220 of 305
+identifying Simple Repeats in batch 221 of 305
+identifying matches to embryophyta sequences in batch 221 of 305
+identifying Simple Repeats in batch 220 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 221 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 222 of 305
+identifying matches to embryophyta sequences in batch 222 of 305
+identifying Simple Repeats in batch 223 of 305
+identifying matches to embryophyta sequences in batch 223 of 305
+identifying Simple Repeats in batch 222 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 223 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 224 of 305
+identifying matches to embryophyta sequences in batch 224 of 305
+identifying Simple Repeats in batch 225 of 305
+identifying Simple Repeats in batch 224 of 305
+identifying matches to embryophyta sequences in batch 225 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 225 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 226 of 305
+identifying matches to embryophyta sequences in batch 226 of 305
+identifying Simple Repeats in batch 227 of 305
+identifying matches to embryophyta sequences in batch 227 of 305
+identifying Simple Repeats in batch 226 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 227 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 228 of 305
+identifying matches to embryophyta sequences in batch 228 of 305
+identifying Simple Repeats in batch 229 of 305
+identifying matches to embryophyta sequences in batch 229 of 305
+identifying Simple Repeats in batch 228 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 229 of 305
+identifying Simple Repeats in batch 230 of 305
+identifying matches to embryophyta sequences in batch 230 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 230 of 305
+identifying Simple Repeats in batch 231 of 305
+identifying matches to embryophyta sequences in batch 231 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 231 of 305
+identifying Simple Repeats in batch 232 of 305
+identifying matches to embryophyta sequences in batch 232 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 232 of 305
+identifying Simple Repeats in batch 233 of 305
+identifying matches to embryophyta sequences in batch 233 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 233 of 305
+identifying Simple Repeats in batch 234 of 305
+identifying matches to embryophyta sequences in batch 234 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 234 of 305
+identifying Simple Repeats in batch 235 of 305
+identifying matches to embryophyta sequences in batch 235 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 235 of 305
+identifying Simple Repeats in batch 236 of 305
+identifying matches to embryophyta sequences in batch 236 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 236 of 305
+identifying Simple Repeats in batch 237 of 305
+identifying matches to embryophyta sequences in batch 237 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 237 of 305
+identifying Simple Repeats in batch 238 of 305
+identifying matches to embryophyta sequences in batch 238 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 238 of 305
+identifying Simple Repeats in batch 239 of 305
+identifying matches to embryophyta sequences in batch 239 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 239 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 240 of 305
+identifying matches to embryophyta sequences in batch 240 of 305
+identifying Simple Repeats in batch 241 of 305
+identifying matches to embryophyta sequences in batch 241 of 305
+identifying Simple Repeats in batch 240 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 241 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 242 of 305
+identifying matches to embryophyta sequences in batch 242 of 305
+identifying Simple Repeats in batch 243 of 305
+identifying matches to embryophyta sequences in batch 243 of 305
+identifying Simple Repeats in batch 242 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 243 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 244 of 305
+identifying matches to embryophyta sequences in batch 244 of 305
+identifying Simple Repeats in batch 245 of 305
+identifying matches to embryophyta sequences in batch 245 of 305
+identifying Simple Repeats in batch 244 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 245 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 246 of 305
+identifying matches to embryophyta sequences in batch 246 of 305
+identifying Simple Repeats in batch 247 of 305
+identifying matches to embryophyta sequences in batch 247 of 305
+identifying Simple Repeats in batch 246 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 247 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 248 of 305
+identifying matches to embryophyta sequences in batch 248 of 305
+identifying Simple Repeats in batch 249 of 305
+identifying matches to embryophyta sequences in batch 249 of 305
+identifying Simple Repeats in batch 248 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 249 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 250 of 305
+identifying matches to embryophyta sequences in batch 250 of 305
+identifying Simple Repeats in batch 251 of 305
+identifying matches to embryophyta sequences in batch 251 of 305
+identifying Simple Repeats in batch 250 of 305
+identifying Simple Repeats in batch 251 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 252 of 305
+identifying matches to embryophyta sequences in batch 252 of 305
+identifying Simple Repeats in batch 253 of 305
+identifying matches to embryophyta sequences in batch 253 of 305
+identifying Simple Repeats in batch 252 of 305
+identifying Simple Repeats in batch 253 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 254 of 305
+identifying matches to embryophyta sequences in batch 254 of 305
+identifying Simple Repeats in batch 255 of 305
+identifying matches to embryophyta sequences in batch 255 of 305
+identifying Simple Repeats in batch 254 of 305
+identifying Simple Repeats in batch 255 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 256 of 305
+identifying matches to embryophyta sequences in batch 256 of 305
+identifying Simple Repeats in batch 257 of 305
+identifying matches to embryophyta sequences in batch 257 of 305
+identifying Simple Repeats in batch 256 of 305
+identifying Simple Repeats in batch 257 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 258 of 305
+identifying matches to embryophyta sequences in batch 258 of 305
+identifying Simple Repeats in batch 259 of 305
+identifying matches to embryophyta sequences in batch 259 of 305
+identifying Simple Repeats in batch 258 of 305
+identifying Simple Repeats in batch 259 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 260 of 305
+identifying Simple Repeats in batch 261 of 305
+identifying matches to embryophyta sequences in batch 260 of 305
+identifying matches to embryophyta sequences in batch 261 of 305
+identifying Simple Repeats in batch 260 of 305
+identifying Simple Repeats in batch 261 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 262 of 305
+identifying Simple Repeats in batch 263 of 305
+identifying matches to embryophyta sequences in batch 262 of 305
+identifying matches to embryophyta sequences in batch 263 of 305
+identifying Simple Repeats in batch 263 of 305
+identifying Simple Repeats in batch 262 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 264 of 305
+identifying matches to embryophyta sequences in batch 264 of 305
+identifying Simple Repeats in batch 265 of 305
+identifying matches to embryophyta sequences in batch 265 of 305
+identifying Simple Repeats in batch 264 of 305
+identifying Simple Repeats in batch 265 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 266 of 305
+identifying matches to embryophyta sequences in batch 266 of 305
+identifying Simple Repeats in batch 267 of 305
+identifying matches to embryophyta sequences in batch 267 of 305
+identifying Simple Repeats in batch 266 of 305
+identifying Simple Repeats in batch 267 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 269 of 305
+identifying matches to embryophyta sequences in batch 269 of 305
+identifying Simple Repeats in batch 268 of 305
+identifying matches to embryophyta sequences in batch 268 of 305
+identifying Simple Repeats in batch 269 of 305
+identifying Simple Repeats in batch 268 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 270 of 305
+identifying Simple Repeats in batch 271 of 305
+identifying matches to embryophyta sequences in batch 270 of 305
+identifying matches to embryophyta sequences in batch 271 of 305
+identifying Simple Repeats in batch 270 of 305
+identifying Simple Repeats in batch 271 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 272 of 305
+identifying Simple Repeats in batch 273 of 305
+identifying matches to embryophyta sequences in batch 272 of 305
+identifying matches to embryophyta sequences in batch 273 of 305
+identifying Simple Repeats in batch 273 of 305
+identifying Simple Repeats in batch 272 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 274 of 305
+identifying Simple Repeats in batch 275 of 305
+identifying matches to embryophyta sequences in batch 274 of 305
+identifying matches to embryophyta sequences in batch 275 of 305
+identifying Simple Repeats in batch 274 of 305
+identifying Simple Repeats in batch 275 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 276 of 305
+identifying matches to embryophyta sequences in batch 276 of 305
+identifying Simple Repeats in batch 277 of 305
+identifying matches to embryophyta sequences in batch 277 of 305
+identifying Simple Repeats in batch 276 of 305
+identifying Simple Repeats in batch 277 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 278 of 305
+identifying matches to embryophyta sequences in batch 278 of 305
+identifying Simple Repeats in batch 279 of 305
+identifying matches to embryophyta sequences in batch 279 of 305
+identifying Simple Repeats in batch 278 of 305
+identifying Simple Repeats in batch 279 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 280 of 305
+identifying matches to embryophyta sequences in batch 280 of 305
+identifying Simple Repeats in batch 281 of 305
+identifying matches to embryophyta sequences in batch 281 of 305
+identifying Simple Repeats in batch 280 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 281 of 305
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 282 of 305
+identifying matches to embryophyta sequences in batch 282 of 305
+identifying Simple Repeats in batch 283 of 305
+identifying matches to embryophyta sequences in batch 283 of 305
+identifying Simple Repeats in batch 282 of 305
+identifying Simple Repeats in batch 283 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 284 of 305
+identifying matches to embryophyta sequences in batch 284 of 305
+identifying Simple Repeats in batch 285 of 305
+identifying matches to embryophyta sequences in batch 285 of 305
+identifying Simple Repeats in batch 284 of 305
+identifying Simple Repeats in batch 285 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 286 of 305
+identifying matches to embryophyta sequences in batch 286 of 305
+identifying Simple Repeats in batch 287 of 305
+identifying matches to embryophyta sequences in batch 287 of 305
+identifying Simple Repeats in batch 286 of 305
+identifying Simple Repeats in batch 287 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 288 of 305
+identifying matches to embryophyta sequences in batch 288 of 305
+identifying Simple Repeats in batch 289 of 305
+identifying matches to embryophyta sequences in batch 289 of 305
+identifying Simple Repeats in batch 288 of 305
+identifying Simple Repeats in batch 289 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 291 of 305
+identifying matches to embryophyta sequences in batch 291 of 305
+identifying Simple Repeats in batch 290 of 305
+identifying matches to embryophyta sequences in batch 290 of 305
+identifying Simple Repeats in batch 291 of 305
+identifying Simple Repeats in batch 290 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 292 of 305
+identifying matches to embryophyta sequences in batch 292 of 305
+identifying Simple Repeats in batch 293 of 305
+identifying matches to embryophyta sequences in batch 293 of 305
+identifying Simple Repeats in batch 292 of 305
+identifying Simple Repeats in batch 293 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 294 of 305
+identifying Simple Repeats in batch 295 of 305
+identifying matches to embryophyta sequences in batch 294 of 305
+identifying matches to embryophyta sequences in batch 295 of 305
+identifying Simple Repeats in batch 294 of 305
+identifying Simple Repeats in batch 295 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 297 of 305
+identifying Simple Repeats in batch 296 of 305
+identifying matches to embryophyta sequences in batch 297 of 305
+identifying matches to embryophyta sequences in batch 296 of 305
+identifying Simple Repeats in batch 296 of 305
+identifying Simple Repeats in batch 297 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 298 of 305
+identifying matches to embryophyta sequences in batch 298 of 305
+identifying Simple Repeats in batch 299 of 305
+identifying matches to embryophyta sequences in batch 299 of 305
+identifying Simple Repeats in batch 298 of 305
+identifying Simple Repeats in batch 299 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 300 of 305
+identifying matches to embryophyta sequences in batch 300 of 305
+identifying Simple Repeats in batch 301 of 305
+identifying matches to embryophyta sequences in batch 301 of 305
+identifying Simple Repeats in batch 300 of 305
+identifying Simple Repeats in batch 301 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 302 of 305
+identifying matches to embryophyta sequences in batch 302 of 305
+identifying Simple Repeats in batch 303 of 305
+identifying matches to embryophyta sequences in batch 303 of 305
+identifying Simple Repeats in batch 302 of 305
+identifying Simple Repeats in batch 303 of 305
+
+Checking for E. coli insertion elements
+
+Checking for E. coli insertion elements
+identifying Simple Repeats in batch 304 of 305
+identifying matches to embryophyta sequences in batch 304 of 305
+identifying Simple Repeats in batch 305 of 305
+identifying matches to embryophyta sequences in batch 305 of 305
+identifying Simple Repeats in batch 304 of 305
+identifying Simple Repeats in batch 305 of 305
+
+
+ProcessRepeats: Adjudicating alignments
+
+ProcessRepeats: Masking sequences
+
+ProcessRepeats: Generating table output
+
+done

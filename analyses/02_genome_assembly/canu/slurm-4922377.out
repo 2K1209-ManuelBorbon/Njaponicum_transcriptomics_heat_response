@@ -1,0 +1,225 @@
+Startiing Canu assembly
+-- canu 2.3
+--
+-- CITATIONS
+--
+-- For 'standard' assemblies of PacBio or Nanopore reads:
+--   Koren S, Walenz BP, Berlin K, Miller JR, Phillippy AM.
+--   Canu: scalable and accurate long-read assembly via adaptive k-mer weighting and repeat separation.
+--   Genome Res. 2017 May;27(5):722-736.
+--   http://doi.org/10.1101/gr.215087.116
+-- 
+-- Read and contig alignments during correction and consensus use:
+--   Šošic M, Šikic M.
+--   Edlib: a C/C ++ library for fast, exact sequence alignment using edit distance.
+--   Bioinformatics. 2017 May 1;33(9):1394-1395.
+--   http://doi.org/10.1093/bioinformatics/btw753
+-- 
+-- Overlaps are generated using:
+--   Berlin K, et al.
+--   Assembling large genomes with single-molecule sequencing and locality-sensitive hashing.
+--   Nat Biotechnol. 2015 Jun;33(6):623-30.
+--   http://doi.org/10.1038/nbt.3238
+-- 
+--   Myers EW, et al.
+--   A Whole-Genome Assembly of Drosophila.
+--   Science. 2000 Mar 24;287(5461):2196-204.
+--   http://doi.org/10.1126/science.287.5461.2196
+-- 
+-- Corrected read consensus sequences are generated using an algorithm derived from FALCON-sense:
+--   Chin CS, et al.
+--   Phased diploid genome assembly with single-molecule real-time sequencing.
+--   Nat Methods. 2016 Dec;13(12):1050-1054.
+--   http://doi.org/10.1038/nmeth.4035
+-- 
+-- Contig consensus sequences are generated using an algorithm derived from pbdagcon:
+--   Chin CS, et al.
+--   Nonhybrid, finished microbial genome assemblies from long-read SMRT sequencing data.
+--   Nat Methods. 2013 Jun;10(6):563-9
+--   http://doi.org/10.1038/nmeth.2474
+-- 
+-- CONFIGURE CANU
+--
+-- Detected Java(TM) Runtime Environment '17.0.15' (from '/sw/arch/eb/software/Java/17.0.15/bin/java') without -d64 support.
+-- Detected gnuplot version '6.0 patchlevel 1   ' (from 'gnuplot') and image format 'png'.
+-- Detected samtools version '1.22.1' / htslib version '1.22.1' (from 'samtools').
+--
+-- Detected 2 CPUs and 12 gigabytes of memory on the local machine.
+--
+-- Detected Slurm with 'sinfo' binary in /usr/bin/sinfo.
+-- Detected Slurm with task IDs up to 10000 allowed.
+-- 
+-- Slurm support detected.  Resources available:
+--      1 host  with  96 cores and 3017 GB memory.
+--      6 hosts with  64 cores and  376 GB memory.
+--      1 host  with  96 cores and 2265 GB memory.
+--     72 hosts with  16 cores and  243 GB memory.
+--     80 hosts with  96 cores and  753 GB memory.
+--
+-- Found untrimmed raw Nanopore reads in the input files.
+--
+-- Job limits:
+--      2 CPUs              (maxThreads option).
+--
+--                         (tag)Threads
+--                (tag)Memory         |
+--        (tag)             |         |  algorithm
+--        -------  ----------  --------  -----------------------------
+-- Grid:  meryl     11.000 GB    2 CPUs  (k-mer counting)
+-- Grid:  cormhap    6.000 GB    2 CPUs  (overlap detection with mhap)
+-- Grid:  obtovl     4.000 GB    2 CPUs  (overlap detection)
+-- Grid:  utgovl     4.000 GB    2 CPUs  (overlap detection)
+-- Grid:  cor        -.--- GB    2 CPUs  (read correction)
+-- Grid:  ovb        4.000 GB    1 CPU   (overlap store bucketizer)
+-- Grid:  ovs        8.000 GB    1 CPU   (overlap store sorting)
+-- Grid:  red       11.000 GB    2 CPUs  (read error detection)
+-- Grid:  oea        8.000 GB    2 CPUs  (overlap error adjustment)
+-- Grid:  bat       16.000 GB    2 CPUs  (contig construction with bogart)
+-- Grid:  cns        -.--- GB    2 CPUs  (consensus)
+--
+-- Generating assembly 'chromosome3_canu' in '/crex/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome':
+--   genomeSize:
+--     16000000
+--
+--   Overlap Generation Limits:
+--     corOvlErrorRate 0.3200 ( 32.00%)
+--     obtOvlErrorRate 0.1200 ( 12.00%)
+--     utgOvlErrorRate 0.1200 ( 12.00%)
+--
+--   Overlap Processing Limits:
+--     corErrorRate    0.3000 ( 30.00%)
+--     obtErrorRate    0.1200 ( 12.00%)
+--     utgErrorRate    0.1200 ( 12.00%)
+--     cnsErrorRate    0.2000 ( 20.00%)
+--
+--   Stages to run:
+--     correct raw reads.
+--     trim corrected reads.
+--     assemble corrected and trimmed reads.
+--
+--
+-- BEGIN STORE CREATION
+----------------------------------------
+-- Starting command on Thu Apr 16 15:19:15 2026 with 958222.92 GB free disk space
+
+    cd .
+    ./chromosome3_canu.seqStore.sh \
+    > ./chromosome3_canu.seqStore.err 2>&1
+
+-- Finished on Thu Apr 16 15:21:37 2026 (142 seconds) with 958089.8 GB free disk space
+----------------------------------------
+--
+-- In sequence store './chromosome3_canu.seqStore':
+--   Found 203987 reads.
+--   Found 3200032243 bases (200 times coverage).
+--    Histogram of raw reads:
+--    
+--    G=3200032243                       sum of  ||               length     num
+--    NG         length     index       lengths  ||                range    seqs
+--    ----- ------------ --------- ------------  ||  ------------------- -------
+--    00010        49679      5527    320022398  ||       1000-4345        56637|---------------------------------------------------------------
+--    00020        41856     12584    640043022  ||       4346-7691        27809|-------------------------------
+--    00030        36080     20830    960036493  ||       7692-11037       16445|-------------------
+--    00040        31444     30336   1280027836  ||      11038-14383       13627|----------------
+--    00050        27254     41271   1600025188  ||      14384-17729       15351|------------------
+--    00060        23049     54034   1920040336  ||      17730-21075       13297|---------------
+--    00070        18854     69362   2240032327  ||      21076-24421       11249|-------------
+--    00080        14596     88549   2560037509  ||      24422-27767        9811|-----------
+--    00090         8109    117119   2880031140  ||      27768-31113        8640|----------
+--    00100         1000    203987   3200032243  ||      31114-34459        7245|---------
+--    001.000x              203987   3200032243  ||      34460-37805        5792|-------
+--                                               ||      37806-41151        4623|------
+--                                               ||      41152-44497        3777|-----
+--                                               ||      44498-47843        2881|----
+--                                               ||      47844-51189        2080|---
+--                                               ||      51190-54535        1561|--
+--                                               ||      54536-57881        1081|--
+--                                               ||      57882-61227         715|-
+--                                               ||      61228-64573         512|-
+--                                               ||      64574-67919         305|-
+--                                               ||      67920-71265         191|-
+--                                               ||      71266-74611         135|-
+--                                               ||      74612-77957          72|-
+--                                               ||      77958-81303          55|-
+--                                               ||      81304-84649          34|-
+--                                               ||      84650-87995          17|-
+--                                               ||      87996-91341          15|-
+--                                               ||      91342-94687           4|-
+--                                               ||      94688-98033           7|-
+--                                               ||      98034-101379          4|-
+--                                               ||     101380-104725          5|-
+--                                               ||     104726-108071          2|-
+--                                               ||     108072-111417          0|
+--                                               ||     111418-114763          1|-
+--                                               ||     114764-118109          4|-
+--                                               ||     118110-121455          1|-
+--                                               ||     121456-124801          0|
+--                                               ||     124802-128147          1|-
+--                                               ||     128148-131493          0|
+--                                               ||     131494-134839          1|-
+--    
+--
+-- BEGIN CORRECTION
+----------------------------------------
+-- Starting command on Thu Apr 16 15:21:38 2026 with 958089.8 GB free disk space
+
+    cd correction/0-mercounts
+    ./meryl-configure.sh \
+    > ./meryl-configure.err 2>&1
+
+-- Finished on Thu Apr 16 15:21:39 2026 (one second) with 958089.766 GB free disk space
+----------------------------------------
+--  segments   memory batches
+--  -------- -------- -------
+--        01  6.21 GB       2
+--        02  3.35 GB       2
+--        04  1.81 GB       2
+--        06  1.37 GB       2
+--        08  1.03 GB       2
+--        12  0.69 GB       2
+--        16  0.52 GB       2
+--        20  0.41 GB       2
+--        24  0.35 GB       2
+--        32  0.26 GB       2
+--        40  -.-- GB       -  (segment size too small)
+--        48  -.-- GB       -  (segment size too small)
+--        56  -.-- GB       -  (segment size too small)
+--        64  -.-- GB       -  (segment size too small)
+--        96  -.-- GB       -  (segment size too small)
+--
+--  For 203987 reads with 3200032243 bases, limit to 32 batches.
+--  Will count kmers using 01 jobs, each using 8 GB and 2 threads.
+--
+-- Finished stage 'merylConfigure', reset canuIteration.
+--
+-- Running jobs.  First attempt out of 2.
+--
+-- 'meryl-count.jobSubmit-01.sh' -> job 4922443 task 1.
+--
+----------------------------------------
+-- Starting command on Thu Apr 16 15:21:41 2026 with 958087.649 GB free disk space
+
+    cd /crex/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome
+    sbatch \
+      --depend=afterany:4922443 \
+      --cpus-per-task=1 \
+      --mem-per-cpu=4g \
+      -A uppmax2026-1-61 \
+      -M pelle \
+      -t 12:00:00  \
+      -D `pwd` \
+      -J 'canu_chromosome3_canu' \
+      -o canu-scripts/canu.01.out  canu-scripts/canu.01.sh
+Submitted batch job 4922444 on cluster pelle
+
+-- Finished on Thu Apr 16 15:21:41 2026 (lickety-split) with 958087.649 GB free disk space
+----------------------------------------
+Canu assembly complete
+ln: failed to create symbolic link './chromosome3_canu.contigs.fasta': File exists
+ln: failed to create symbolic link './chromosome3_canu.trimmedReads.fasta.gz': File exists
+ln: failed to create symbolic link './chromosome3_canu.correctedReads.fasta.gz': File exists
+ln: failed to create symbolic link './chromosome3_canu.report': File exists
+ln: failed to create symbolic link './chromosome3_canu.unassembled.fasta': File exists
+ln: failed to create symbolic link './chromosome3_canu.contigs.layout': File exists
+ln: failed to create symbolic link './chromosome3_canu.contigs.layout.readToTig': File exists
+ln: failed to create symbolic link './chromosome3_canu.contigs.layout.tigInfo': File exists

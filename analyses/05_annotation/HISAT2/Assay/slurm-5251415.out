@@ -1,0 +1,102 @@
+Sample being processed: Control_1
+21684383 reads; of these:
+  21684383 (100.00%) were paired; of these:
+    19803571 (91.33%) aligned concordantly 0 times
+    1746276 (8.05%) aligned concordantly exactly 1 time
+    134536 (0.62%) aligned concordantly >1 times
+    ----
+    19803571 pairs aligned concordantly 0 times; of these:
+      17418 (0.09%) aligned discordantly 1 time
+    ----
+    19786153 pairs aligned 0 times concordantly or discordantly; of these:
+      39572306 mates make up the pairs; of these:
+        39294765 (99.30%) aligned 0 times
+        253863 (0.64%) aligned exactly 1 time
+        23678 (0.06%) aligned >1 times
+9.39% overall alignment rate
+[bam_sort_core] merging from 9 files and 2 in-memory blocks...
+Sample being processed: Control_2
+21983448 reads; of these:
+  21983448 (100.00%) were paired; of these:
+    20266359 (92.19%) aligned concordantly 0 times
+    1613850 (7.34%) aligned concordantly exactly 1 time
+    103239 (0.47%) aligned concordantly >1 times
+    ----
+    20266359 pairs aligned concordantly 0 times; of these:
+      17425 (0.09%) aligned discordantly 1 time
+    ----
+    20248934 pairs aligned 0 times concordantly or discordantly; of these:
+      40497868 mates make up the pairs; of these:
+        40247500 (99.38%) aligned 0 times
+        229764 (0.57%) aligned exactly 1 time
+        20604 (0.05%) aligned >1 times
+8.46% overall alignment rate
+[bam_sort_core] merging from 9 files and 2 in-memory blocks...
+Sample being processed: Control_3
+22921737 reads; of these:
+  22921737 (100.00%) were paired; of these:
+    21084834 (91.99%) aligned concordantly 0 times
+    1708935 (7.46%) aligned concordantly exactly 1 time
+    127968 (0.56%) aligned concordantly >1 times
+    ----
+    21084834 pairs aligned concordantly 0 times; of these:
+      15281 (0.07%) aligned discordantly 1 time
+    ----
+    21069553 pairs aligned 0 times concordantly or discordantly; of these:
+      42139106 mates make up the pairs; of these:
+        41924048 (99.49%) aligned 0 times
+        195589 (0.46%) aligned exactly 1 time
+        19469 (0.05%) aligned >1 times
+8.55% overall alignment rate
+[bam_sort_core] merging from 10 files and 2 in-memory blocks...
+Sample being processed: Heat_treated_42_12h_1
+22254075 reads; of these:
+  22254075 (100.00%) were paired; of these:
+    20384695 (91.60%) aligned concordantly 0 times
+    1717084 (7.72%) aligned concordantly exactly 1 time
+    152296 (0.68%) aligned concordantly >1 times
+    ----
+    20384695 pairs aligned concordantly 0 times; of these:
+      9204 (0.05%) aligned discordantly 1 time
+    ----
+    20375491 pairs aligned 0 times concordantly or discordantly; of these:
+      40750982 mates make up the pairs; of these:
+        40569696 (99.56%) aligned 0 times
+        161053 (0.40%) aligned exactly 1 time
+        20233 (0.05%) aligned >1 times
+8.85% overall alignment rate
+[bam_sort_core] merging from 9 files and 2 in-memory blocks...
+Sample being processed: Heat_treated_42_12h_2
+21629229 reads; of these:
+  21629229 (100.00%) were paired; of these:
+    19844718 (91.75%) aligned concordantly 0 times
+    1657016 (7.66%) aligned concordantly exactly 1 time
+    127495 (0.59%) aligned concordantly >1 times
+    ----
+    19844718 pairs aligned concordantly 0 times; of these:
+      13041 (0.07%) aligned discordantly 1 time
+    ----
+    19831677 pairs aligned 0 times concordantly or discordantly; of these:
+      39663354 mates make up the pairs; of these:
+        39489427 (99.56%) aligned 0 times
+        156704 (0.40%) aligned exactly 1 time
+        17223 (0.04%) aligned >1 times
+8.71% overall alignment rate
+[bam_sort_core] merging from 9 files and 2 in-memory blocks...
+Sample being processed: Heat_treated_42_12h_3
+22229513 reads; of these:
+  22229513 (100.00%) were paired; of these:
+    20272879 (91.20%) aligned concordantly 0 times
+    1833479 (8.25%) aligned concordantly exactly 1 time
+    123155 (0.55%) aligned concordantly >1 times
+    ----
+    20272879 pairs aligned concordantly 0 times; of these:
+      15008 (0.07%) aligned discordantly 1 time
+    ----
+    20257871 pairs aligned 0 times concordantly or discordantly; of these:
+      40515742 mates make up the pairs; of these:
+        40281740 (99.42%) aligned 0 times
+        214784 (0.53%) aligned exactly 1 time
+        19218 (0.05%) aligned >1 times
+9.40% overall alignment rate
+[bam_sort_core] merging from 9 files and 2 in-memory blocks...

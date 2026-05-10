@@ -1,0 +1,83 @@
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+AUGUSTUS/3.5.0: A read-only config directory is at $AUGUSTUS_CONFIG_PATH. See 'module help AUGUSTUS/3.5.0' for guidance to create your own writable copy.
+BBMap/39.19: For improved speed, add 'usejni=t' to the command line of BBMap tools which support the use of the compiled jni C code.
+BUSCO/5.8.2: see 'module help BUSCO/5.8.2' for availability of lineage sets
+2026-04-27 21:40:02 INFO:	***** Start a BUSCO v5.8.2 analysis, current time: 04/27/2026 21:40:02 *****
+2026-04-27 21:40:02 INFO:	Configuring BUSCO with /sw/arch/eb/software/BUSCO/5.8.2-gfbf-2024a/config/config.ini
+2026-04-27 21:40:02 INFO:	Running genome mode
+2026-04-27 21:40:02 INFO:	Downloading information on latest versions of BUSCO data...
+2026-04-27 21:40:02 INFO:	Input file is /proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/flye/assembly.fasta
+2026-04-27 21:40:03 INFO:	Running BUSCO using lineage dataset embryophyta_odb10 (eukaryota, 2024-01-08)
+2026-04-27 21:40:03 INFO:	Running 1 job(s) on bbtools, starting at 04/27/2026 21:40:03
+2026-04-27 21:40:03 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:03 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:03 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:03 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:03 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:40:03 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:40:04 INFO:	[bbtools]	1 of 1 task(s) completed
+2026-04-27 21:40:04 INFO:	Running 1 job(s) on miniprot_index, starting at 04/27/2026 21:40:04
+2026-04-27 21:40:04 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:04 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:04 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:04 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:04 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:40:04 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:40:05 INFO:	[miniprot_index]	1 of 1 task(s) completed
+2026-04-27 21:40:05 WARNING:	Unable to remove compressed refseq file in dataset download
+2026-04-27 21:40:05 INFO:	Running 1 job(s) on miniprot_align, starting at 04/27/2026 21:40:05
+2026-04-27 21:40:05 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:05 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:05 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:40:05 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:40:05 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:40:05 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:53:02 INFO:	[miniprot_align]	1 of 1 task(s) completed
+2026-04-27 21:53:07 INFO:	***** Run HMMER on gene sequences *****
+2026-04-27 21:53:07 INFO:	Running 634 job(s) on hmmsearch, starting at 04/27/2026 21:53:07
+2026-04-27 21:53:11 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:53:11 INFO:	Note: detected 96 virtual cores but NumExpr set to maximum of 64, check "NUMEXPR_MAX_THREADS" environment variable.
+2026-04-27 21:53:11 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:53:11 INFO:	Note: NumExpr detected 96 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+2026-04-27 21:53:11 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:53:11 INFO:	NumExpr defaulting to 8 threads.
+2026-04-27 21:53:18 INFO:	[hmmsearch]	64 of 634 task(s) completed
+2026-04-27 21:53:21 INFO:	[hmmsearch]	127 of 634 task(s) completed
+2026-04-27 21:53:23 INFO:	[hmmsearch]	191 of 634 task(s) completed
+2026-04-27 21:53:25 INFO:	[hmmsearch]	254 of 634 task(s) completed
+2026-04-27 21:53:27 INFO:	[hmmsearch]	317 of 634 task(s) completed
+2026-04-27 21:53:29 INFO:	[hmmsearch]	381 of 634 task(s) completed
+2026-04-27 21:53:32 INFO:	[hmmsearch]	444 of 634 task(s) completed
+2026-04-27 21:53:35 INFO:	[hmmsearch]	508 of 634 task(s) completed
+2026-04-27 21:53:37 INFO:	[hmmsearch]	571 of 634 task(s) completed
+2026-04-27 21:53:41 INFO:	[hmmsearch]	634 of 634 task(s) completed
+2026-04-27 21:53:41 INFO:	1442 exons in total
+2026-04-27 21:53:41 WARNING:	7 of 149 Complete matches (4.7%) contain internal stop codons in Miniprot gene predictions
+2026-04-27 21:53:42 INFO:	
+
+    -------------------------------------------------------------------------------------------
+    |Results from dataset embryophyta_odb10                                                    |
+    -------------------------------------------------------------------------------------------
+    |C:9.2%[S:8.9%,D:0.3%],F:0.4%,M:90.3%,n:1614,E:4.7%                                        |
+    |149    Complete BUSCOs (C)    (of which 7 contain internal stop codons)                   |
+    |144    Complete and single-copy BUSCOs (S)                                                |
+    |5    Complete and duplicated BUSCOs (D)                                                   |
+    |7    Fragmented BUSCOs (F)                                                                |
+    |1458    Missing BUSCOs (M)                                                                |
+    |1614    Total BUSCO groups searched                                                       |
+    -------------------------------------------------------------------------------------------
+2026-04-27 21:53:42 INFO:	BUSCO analysis done with WARNING(s). Total running time: 820 seconds
+
+***** Summary of warnings: *****
+2026-04-27 21:40:05 WARNING:busco.busco_tools.base	Unable to remove compressed refseq file in dataset download
+2026-04-27 21:53:41 WARNING:busco.busco_tools.hmmer	7 of 149 Complete matches (4.7%) contain internal stop codons in Miniprot gene predictions
+
+2026-04-27 21:53:42 INFO:	Results written in /crex/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/QC/Flye/canu_busco_chr3
+2026-04-27 21:53:42 INFO:	For assistance with interpreting the results, please consult the userguide: https://busco.ezlab.org/busco_userguide.html
+
+2026-04-27 21:53:42 INFO:	Visit this page https://gitlab.com/ezlab/busco#how-to-cite-busco to see how to cite BUSCO

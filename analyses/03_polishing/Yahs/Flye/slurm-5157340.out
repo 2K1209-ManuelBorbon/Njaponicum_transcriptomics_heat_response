@@ -1,0 +1,224 @@
+Starting YaHS assay
+[I::main] dump hic links (BAM) to binary file yahs.out.bin
+[W::dump_links_from_bam_file] sequence "tig00000119" not found 
+[W::dump_links_from_bam_file] sequence "tig00000061" not found 
+[W::dump_links_from_bam_file] sequence "tig00000110" not found 
+[W::dump_links_from_bam_file] sequence "tig00000112" not found 
+[W::dump_links_from_bam_file] sequence "tig00000115" not found 
+[W::dump_links_from_bam_file] sequence "tig00000107" not found 
+[W::dump_links_from_bam_file] sequence "tig00000057" not found 
+[W::dump_links_from_bam_file] sequence "tig00000114" not found 
+[W::dump_links_from_bam_file] sequence "tig00000055" not found 
+[W::dump_links_from_bam_file] sequence "tig00000051" not found 
+[W::dump_links_from_bam_file] sequence "tig00000070" not found 
+[W::dump_links_from_bam_file] sequence "tig00000069" not found 
+[W::dump_links_from_bam_file] sequence "tig00000008" not found 
+[W::dump_links_from_bam_file] sequence "tig00000087" not found 
+[W::dump_links_from_bam_file] sequence "tig00000076" not found 
+[W::dump_links_from_bam_file] sequence "tig00000113" not found 
+[W::dump_links_from_bam_file] sequence "tig00000116" not found 
+[W::dump_links_from_bam_file] sequence "tig00000124" not found 
+[W::dump_links_from_bam_file] sequence "tig00000019" not found 
+[W::dump_links_from_bam_file] sequence "tig00000125" not found 
+[W::dump_links_from_bam_file] sequence "tig00000045" not found 
+[W::dump_links_from_bam_file] sequence "tig00000108" not found 
+[W::dump_links_from_bam_file] sequence "tig00000067" not found 
+[W::dump_links_from_bam_file] sequence "tig00000052" not found 
+[W::dump_links_from_bam_file] sequence "tig00000042" not found 
+[W::dump_links_from_bam_file] sequence "tig00000068" not found 
+[W::dump_links_from_bam_file] sequence "tig00000027" not found 
+[W::dump_links_from_bam_file] sequence "tig00000088" not found 
+[W::dump_links_from_bam_file] sequence "tig00000023" not found 
+[W::dump_links_from_bam_file] sequence "tig00000039" not found 
+[W::dump_links_from_bam_file] sequence "tig00000046" not found 
+[W::dump_links_from_bam_file] sequence "tig00000083" not found 
+[W::dump_links_from_bam_file] sequence "tig00000121" not found 
+[W::dump_links_from_bam_file] sequence "tig00000003" not found 
+[W::dump_links_from_bam_file] sequence "tig00000056" not found 
+[W::dump_links_from_bam_file] sequence "tig00000073" not found 
+[W::dump_links_from_bam_file] sequence "tig00000074" not found 
+[W::dump_links_from_bam_file] sequence "tig00000058" not found 
+[W::dump_links_from_bam_file] sequence "tig00000026" not found 
+[W::dump_links_from_bam_file] sequence "tig00000059" not found 
+[W::dump_links_from_bam_file] sequence "tig00000037" not found 
+[W::dump_links_from_bam_file] sequence "tig00000038" not found 
+[W::dump_links_from_bam_file] sequence "tig00000066" not found 
+[W::dump_links_from_bam_file] sequence "tig00000106" not found 
+[W::dump_links_from_bam_file] sequence "tig00000002" not found 
+[W::dump_links_from_bam_file] sequence "tig00000123" not found 
+[W::dump_links_from_bam_file] sequence "tig00000029" not found 
+[W::dump_links_from_bam_file] sequence "tig00000078" not found 
+[W::dump_links_from_bam_file] sequence "tig00000004" not found 
+[W::dump_links_from_bam_file] sequence "tig00000072" not found 
+[W::dump_links_from_bam_file] sequence "tig00000082" not found 
+[W::dump_links_from_bam_file] sequence "tig00000035" not found 
+[W::dump_links_from_bam_file] sequence "tig00000017" not found 
+[W::dump_links_from_bam_file] sequence "tig00000047" not found 
+[W::dump_links_from_bam_file] sequence "tig00000025" not found 
+[W::dump_links_from_bam_file] sequence "tig00000089" not found 
+[W::dump_links_from_bam_file] sequence "tig00000016" not found 
+[W::dump_links_from_bam_file] sequence "tig00000013" not found 
+[W::dump_links_from_bam_file] sequence "tig00000092" not found 
+[W::dump_links_from_bam_file] sequence "tig00000080" not found 
+[W::dump_links_from_bam_file] sequence "tig00000048" not found 
+[W::dump_links_from_bam_file] sequence "tig00000101" not found 
+[W::dump_links_from_bam_file] sequence "tig00000093" not found 
+[W::dump_links_from_bam_file] sequence "tig00000097" not found 
+[W::dump_links_from_bam_file] sequence "tig00000010" not found 
+[W::dump_links_from_bam_file] sequence "tig00000012" not found 
+[W::dump_links_from_bam_file] sequence "tig00000063" not found 
+[W::dump_links_from_bam_file] sequence "tig00000053" not found 
+[W::dump_links_from_bam_file] sequence "tig00000005" not found 
+[W::dump_links_from_bam_file] sequence "tig00000062" not found 
+[W::dump_links_from_bam_file] sequence "tig00000079" not found 
+[W::dump_links_from_bam_file] sequence "tig00000081" not found 
+[W::dump_links_from_bam_file] sequence "tig00000049" not found 
+[W::dump_links_from_bam_file] sequence "tig00000036" not found 
+[W::dump_links_from_bam_file] sequence "tig00000096" not found 
+[W::dump_links_from_bam_file] sequence "tig00000043" not found 
+[W::dump_links_from_bam_file] sequence "tig00000122" not found 
+[W::dump_links_from_bam_file] sequence "tig00000118" not found 
+[W::dump_links_from_bam_file] sequence "tig00000091" not found 
+[W::dump_links_from_bam_file] sequence "tig00000033" not found 
+[W::dump_links_from_bam_file] sequence "tig00000030" not found 
+[W::dump_links_from_bam_file] sequence "tig00000100" not found 
+[W::dump_links_from_bam_file] sequence "tig00000095" not found 
+[W::dump_links_from_bam_file] sequence "tig00000024" not found 
+[W::dump_links_from_bam_file] sequence "tig00000071" not found 
+[W::dump_links_from_bam_file] sequence "tig00000034" not found 
+[W::dump_links_from_bam_file] sequence "tig00000065" not found 
+[W::dump_links_from_bam_file] sequence "tig00000099" not found 
+[W::dump_links_from_bam_file] sequence "tig00000022" not found 
+[W::dump_links_from_bam_file] sequence "tig00000015" not found 
+[W::dump_links_from_bam_file] sequence "tig00000044" not found 
+[W::dump_links_from_bam_file] sequence "tig00000060" not found 
+[W::dump_links_from_bam_file] sequence "tig00000102" not found 
+[W::dump_links_from_bam_file] sequence "tig00000103" not found 
+[W::dump_links_from_bam_file] sequence "tig00000120" not found 
+[W::dump_links_from_bam_file] sequence "tig00000084" not found 
+[W::dump_links_from_bam_file] sequence "tig00000098" not found 
+[W::dump_links_from_bam_file] sequence "tig00000075" not found 
+[W::dump_links_from_bam_file] sequence "tig00000085" not found 
+[W::dump_links_from_bam_file] sequence "tig00000105" not found 
+[W::dump_links_from_bam_file] sequence "tig00000117" not found 
+[W::dump_links_from_bam_file] sequence "tig00000054" not found 
+[W::dump_links_from_bam_file] sequence "tig00000077" not found 
+[W::dump_links_from_bam_file] sequence "tig00000104" not found 
+[W::dump_links_from_bam_file] sequence "tig00000111" not found 
+[W::dump_links_from_bam_file] sequence "tig00000094" not found 
+[W::dump_links_from_bam_file] sequence "tig00000090" not found 
+[I::dump_links_from_bam_file] 1 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 2 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 3 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 4 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 5 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 6 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 7 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 8 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 9 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 10 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 11 million records processed, 0 read pairs 
+[W::dump_links_from_bam_file] sequence "tig00000109" not found 
+[I::dump_links_from_bam_file] 12 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 13 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 14 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 15 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 16 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 17 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 18 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 19 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 20 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 21 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 22 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 23 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 24 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 25 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 26 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 27 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 28 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 29 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 30 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 31 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 32 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 33 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 34 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 35 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 36 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] position compression n = 0, m = 0, max_m = 134217727
+[I::dump_links_from_bam_file] dumped 0 read pairs from 36126210 records: 0 intra links + 0 inter links 
+[I::calc_avg_cov] sequence coverage stats:
+[I::calc_avg_cov] sequence bases: 16829933
+[I::calc_avg_cov] read bases: 0
+[I::calc_avg_cov] q drop: 0.100
+[I::calc_avg_cov] average read coverage: 0.000
+[I::run_yahs] RAM total: 754.715GB
+[I::run_yahs] RAM limit: 11.719GB
+[I::contig_error_break] dist threshold for contig error break: 1000000
+[I::contig_error_break] performed 1 round assembly error correction. Made 0 breaks 
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::print_asm_stats]  N100: 2392 (n = 44)
+[I::run_yahs] scaffolding round 1 resolution = 10000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 1 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 2 resolution = 20000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 2 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 3 resolution = 50000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 3 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 4 resolution = 100000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 4 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 5 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (7) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 5 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] assembly N50 (2874048) too small.
+[I::run_yahs] do an extra round scaffolding with resolution = 200000
+[I::run_yahs] scaffolding round 6 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (7) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 6 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] assembly N50 (2874048) too small. End of scaffolding.
+[I::run_yahs] consider running with increased memory limit if there was a memory issue.
+[I::main] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 44
+[I::write_fasta_file_from_agp] Number bases: 16829933
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::print_asm_stats]  N100: 2392 (n = 44)
+[I::main] Version: 1.2.2
+[I::main] CMD: yahs /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Flye/pilon_polished.fasta /proj/uppmax2026-1-61/nobackup/work/Manu/BWA/HiC/Canu/HiC_chr3_namesorted.bam
+[I::main] Real time: 51.787 sec; CPU: 51.409 sec; Peak RSS: 0.021 GB
+YaHS assay done

@@ -1,0 +1,217 @@
+21295348 108 11
+0 tig00000002 len=53714 reads=23 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-53714
+0 53714 0
+0 tig00000003 len=71873 reads=19 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-71873
+53714 71873 0
+0 tig00000004 len=128640 reads=57 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-128640
+125587 128640 0
+0 tig00000005 len=101441 reads=96 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-101441
+254227 101441 0
+0 tig00000008 len=106243 reads=63 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-106243
+355668 106243 0
+0 tig00000010 len=65995 reads=15 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-65995
+461911 65995 0
+0 tig00000012 len=81697 reads=25 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-81697
+527906 81697 0
+0 tig00000013 len=78127 reads=23 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-78127
+609603 78127 0
+0 tig00000015 len=49429 reads=8 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-49429
+687730 49429 0
+0 tig00000016 len=67678 reads=12 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-67678
+737159 67678 0
+0 tig00000017 len=54470 reads=14 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-54470
+804837 54470 0
+0 tig00000019 len=108550 reads=62 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-108550
+859307 108550 0
+0 tig00000022 len=76238 reads=21 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-76238
+967857 76238 0
+0 tig00000023 len=104374 reads=26 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-104374
+1044095 104374 0
+0 tig00000024 len=98596 reads=28 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-98596
+1148469 98596 0
+0 tig00000025 len=64362 reads=6 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-64362
+1247065 64362 0
+0 tig00000026 len=54164 reads=43 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-54164
+1311427 54164 0
+0 tig00000027 len=107541 reads=23 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-107541
+1365591 107541 0
+0 tig00000029 len=78959 reads=32 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-78959
+1473132 78959 0
+0 tig00000030 len=57518 reads=11 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-57518
+1552091 57518 0
+0 tig00000033 len=62725 reads=16 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-62725
+1609609 62725 0
+0 tig00000034 len=86941 reads=38 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-86941
+1672334 86941 0
+0 tig00000035 len=69757 reads=21 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-69757
+1759275 69757 0
+0 tig00000036 len=71497 reads=16 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-71497
+1829032 71497 0
+0 tig00000037 len=60618 reads=19 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-60618
+1900529 60618 0
+0 tig00000038 len=107221 reads=35 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-107221
+1961147 107221 0
+0 tig00000039 len=91649 reads=33 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-91649
+2068368 91649 0
+0 tig00000042 len=69410 reads=35 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-69410
+2160017 69410 0
+0 tig00000043 len=67174 reads=8 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-67174
+2229427 67174 0
+0 tig00000044 len=71715 reads=31 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-71715
+2296601 71715 0
+0 tig00000045 len=89867 reads=30 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-89867
+2368316 89867 0
+0 tig00000046 len=84744 reads=50 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-84744
+2458183 84744 0
+0 tig00000047 len=66712 reads=25 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-66712
+2542927 66712 0
+0 tig00000048 len=81130 reads=19 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-81130
+2609639 81130 0
+0 tig00000049 len=92064 reads=94 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-92064
+2690769 92064 0
+0 tig00000051 len=95354 reads=40 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-95354
+2782833 95354 0
+0 tig00000052 len=96540 reads=37 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-96540
+2878187 96540 0
+0 tig00000053 len=74976 reads=17 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-74976
+2974727 74976 0
+0 tig00000054 len=48718 reads=38 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-48718
+3049703 48718 0
+0 tig00000055 len=91974 reads=85 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-91974
+3098421 91974 0
+0 tig00000056 len=95681 reads=58 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-95681
+3190395 95681 0
+0 tig00000057 len=1059192 reads=945 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1059192
+3286076 1059192 0
+0 tig00000058 len=81832 reads=18 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-81832
+4345268 81832 0
+0 tig00000059 len=109717 reads=17 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-109717
+4427100 109717 0
+0 tig00000060 len=84431 reads=26 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-84431
+4536817 84431 0
+0 tig00000061 len=878702 reads=1004 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-878702
+4621248 878702 0
+0 tig00000062 len=38383 reads=11 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-38383
+5499950 38383 0
+0 tig00000063 len=67750 reads=17 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-67750
+5538333 67750 0
+0 tig00000065 len=54289 reads=18 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-54289
+5606083 54289 0
+0 tig00000066 len=107323 reads=76 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-107323
+5660372 107323 0
+0 tig00000067 len=90870 reads=21 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-90870
+5767695 90870 0
+0 tig00000068 len=51412 reads=10 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-51412
+5858565 51412 0
+0 tig00000069 len=573830 reads=539 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-573830
+5909977 573830 0
+0 tig00000070 len=78828 reads=28 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-78828
+6483807 78828 0
+0 tig00000071 len=87705 reads=12 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-87705
+6562635 87705 0
+0 tig00000072 len=77275 reads=7 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-77275
+6650340 77275 0
+0 tig00000073 len=102720 reads=40 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-102720
+6727615 102720 0
+0 tig00000074 len=92459 reads=449 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-92459
+6830335 92459 0
+0 tig00000075 len=3972 reads=47 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-3972
+6922794 3972 0
+0 tig00000076 len=82168 reads=70 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-82168
+6926766 82168 0
+0 tig00000077 len=4554 reads=85 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-4554
+7008934 4554 0
+0 tig00000078 len=5414 reads=63 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-5414
+7013488 5414 0
+0 tig00000079 len=74967 reads=422 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-74967
+7018902 74967 0
+0 tig00000080 len=4508 reads=71 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-4508
+7093869 4508 0
+0 tig00000081 len=76541 reads=82 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-76541
+7098377 76541 0
+0 tig00000082 len=22555 reads=71 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-22555
+7174918 22555 0
+0 tig00000083 len=48365 reads=36 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-48365
+7197473 48365 0
+0 tig00000084 len=3403 reads=18 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-3403
+7245838 3403 0
+0 tig00000085 len=29449 reads=23 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-29449
+7249241 29449 0
+0 tig00000087 len=50956 reads=53 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-50956
+7278690 50956 0
+0 tig00000088 len=52939 reads=29 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-52939
+7329646 52939 0
+0 tig00000089 len=3447 reads=13 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-3447
+7382585 3447 0
+0 tig00000090 len=5585 reads=8 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-5585
+7386032 5585 0
+0 tig00000091 len=4667 reads=10 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-4667
+7391617 4667 0
+0 tig00000092 len=42949 reads=10 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-42949
+7396284 42949 0
+0 tig00000093 len=86838 reads=47 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-86838
+7439233 86838 0
+0 tig00000094 len=2634 reads=12 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-2634
+7526071 2634 0
+0 tig00000095 len=2481 reads=13 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-2481
+7528705 2481 0
+0 tig00000096 len=63453 reads=43 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-63453
+7531186 63453 0
+0 tig00000097 len=45491 reads=13 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-45491
+7594639 45491 0
+0 tig00000098 len=3279 reads=10 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-3279
+7640130 3279 0
+0 tig00000099 len=50062 reads=20 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-50062
+7643409 50062 0
+0 tig00000100 len=46742 reads=16 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no trim=0-46742
+7693471 46742 0
+0 tig00000101 len=1489 reads=12 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1489
+7740213 1489 0
+0 tig00000102 len=1863 reads=46 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1863
+7741702 1863 0
+0 tig00000103 len=10874 reads=161 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-10874
+7743565 10874 0
+0 tig00000104 len=1416 reads=21 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1416
+7754439 1416 0
+0 tig00000105 len=5278 reads=11 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-5278
+7755855 5278 0
+0 tig00000106 len=76827 reads=101 class=contig suggestRepeat=yes suggestBubble=no suggestCircular=no trim=0-76827
+7761133 76827 0
+0 tig00000107 len=2665760 reads=2839 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-2665760
+7837960 2665760 0
+0 tig00000108 len=79685 reads=47 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-79685
+10503720 79685 0
+0 tig00000109 len=3618 reads=4 class=contig suggestRepeat=yes suggestBubble=no suggestCircular=no trim=0-3618
+10583405 3618 0
+0 tig00000110 len=3945610 reads=4200 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-3945610
+10587023 3945610 0
+0 tig00000111 len=67839 reads=28 class=contig suggestRepeat=yes suggestBubble=no suggestCircular=no trim=0-67839
+14532633 67839 0
+0 tig00000112 len=1356724 reads=1214 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1356724
+14600472 1356724 0
+0 tig00000113 len=476184 reads=426 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-476184
+15957196 476184 0
+0 tig00000114 len=831003 reads=865 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-831003
+16433380 831003 0
+0 tig00000115 len=399144 reads=370 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-399144
+17264383 399144 0
+0 tig00000116 len=392737 reads=464 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-392737
+17663527 392737 0
+0 tig00000117 len=40193 reads=2 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-40193
+18056264 40193 0
+0 tig00000118 len=114131 reads=44 class=contig suggestRepeat=yes suggestBubble=no suggestCircular=no trim=0-114131
+18096457 114131 0
+0 tig00000119 len=1852528 reads=1893 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-1852528
+18210588 1852528 0
+0 tig00000120 len=57985 reads=18 class=contig suggestRepeat=yes suggestBubble=no suggestCircular=no trim=0-57985
+20063116 57985 0
+0 tig00000121 len=136550 reads=121 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-136550
+20121101 136550 0
+0 tig00000122 len=90946 reads=20 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-90946
+20257651 90946 0
+0 tig00000123 len=93998 reads=67 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-93998
+20348597 93998 0
+0 tig00000124 len=659129 reads=461 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-659129
+20442595 659129 0
+0 tig00000125 len=193624 reads=84 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no trim=0-193624
+21101724 193624 0
