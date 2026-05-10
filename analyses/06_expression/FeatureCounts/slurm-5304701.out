@@ -1,0 +1,93 @@
+
+        ==========     _____ _    _ ____  _____  ______          _____  
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \ 
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+	  v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           Control_1.sorted.bam                             ||
+||                           Control_2.sorted.bam                             ||
+||                           Control_3.sorted.bam                             ||
+||                           Heat_treated_42_12h_1.sorted.bam                 ||
+||                           Heat_treated_42_12h_2.sorted.bam                 ||
+||                           Heat_treated_42_12h_3.sorted.bam                 ||
+||                                                                            ||
+||             Output file : featurecounts_chr3.txt                           ||
+||                 Summary : featurecounts_chr3.txt.summary                   ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : no                                               ||
+||              Annotation : braker.gtf (GTF)                                 ||
+||      Dir for temp files : /home/mabo3966/Genome_Analysis/Njaponicum_tr ... ||
+||                                                                            ||
+||                 Threads : 2                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file braker.gtf ...                                        ||
+||    Features : 23061                                                        ||
+||    Meta-features : 2547                                                    ||
+||    Chromosomes/contigs : 36                                                ||
+||                                                                            ||
+|| Process BAM file Control_1.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 43889890                                             ||
+||    Successfully assigned alignments : 3235104 (7.4%)                       ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Control_2.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 44336239                                             ||
+||    Successfully assigned alignments : 2904342 (6.6%)                       ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Control_3.sorted.bam...                                   ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 46297052                                             ||
+||    Successfully assigned alignments : 3098899 (6.7%)                       ||
+||    Running time : 0.36 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_treated_42_12h_1.sorted.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 45030147                                             ||
+||    Successfully assigned alignments : 3029316 (6.7%)                       ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_treated_42_12h_2.sorted.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 43709503                                             ||
+||    Successfully assigned alignments : 2955662 (6.8%)                       ||
+||    Running time : 0.33 minutes                                             ||
+||                                                                            ||
+|| Process BAM file Heat_treated_42_12h_3.sorted.bam...                       ||
+||    Paired-end reads are included.                                          ||
+||    The reads are assigned on the single-end mode.                          ||
+||    Total alignments : 44884835                                             ||
+||    Successfully assigned alignments : 3301567 (7.4%)                       ||
+||    Running time : 0.34 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "/home/mabo3966/Genome_A  ||
+|| nalysis/Njaponicum_transcriptomics_heat_response/analyses/06_expression/F  ||
+|| eatureCounts/Results/featurecounts_chr3.txt.summary"                       ||
+||                                                                            ||
+\\============================================================================//
+

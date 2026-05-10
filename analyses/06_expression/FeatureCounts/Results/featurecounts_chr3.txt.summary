@@ -1,0 +1,15 @@
+Status	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Control_1.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Control_2.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Control_3.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Heat_treated_42_12h_1.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Heat_treated_42_12h_2.sorted.bam	/proj/uppmax2026-1-61/nobackup/work/Manu/HISAT2/ASSAY/Heat_treated_42_12h_3.sorted.bam
+Assigned	3235104	2904342	3098899	3029316	2955662	3301567
+Unassigned_Unmapped	39294765	40247500	41924048	40569696	39489427	40281740
+Unassigned_Read_Type	0	0	0	0	0	0
+Unassigned_Singleton	0	0	0	0	0	0
+Unassigned_MappingQuality	0	0	0	0	0	0
+Unassigned_Chimera	0	0	0	0	0	0
+Unassigned_FragmentLength	0	0	0	0	0	0
+Unassigned_Duplicate	0	0	0	0	0	0
+Unassigned_MultiMapping	813874	596425	728983	846822	723258	691337
+Unassigned_Secondary	0	0	0	0	0	0
+Unassigned_NonSplit	0	0	0	0	0	0
+Unassigned_NoFeatures	496243	529385	483737	529420	491920	561036
+Unassigned_Overlapping_Length	0	0	0	0	0	0
+Unassigned_Ambiguity	49904	58587	61385	54893	49236	49155
