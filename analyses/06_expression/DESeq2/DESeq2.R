@@ -1,4 +1,5 @@
 # Load required libraries
+library(apeglm)
 library(DESeq2)
 library(ggplot2)
 library(pheatmap)
@@ -115,6 +116,7 @@ res_shrunk <- lfcShrink(dds, coef = resultsNames(dds)[2], type = "apeglm")
 # ============================================
 # STEP 9: Export results
 # ============================================
+setwd("~/Master_Bioinf/Genome_Analysis/Njaponicum_transcriptomics_heat_response/analyses/06_expression/DESeq2/Diagnostic_Plots")
 write.csv(as.data.frame(res_ordered), "DESeq2_results_chr3.csv")
 write.csv(as.data.frame(res_shrunk), "DESeq2_results_shrunk_chr3.csv")
 
@@ -130,17 +132,7 @@ write.csv(as.data.frame(normalized_counts), "normalized_counts_chr3.csv")
 # STEP 10: Diagnostic plots
 # ============================================
 
-# 1. MA Plot
-pdf("MA_plot_chr3.pdf", width = 8, height = 6)
-plotMA(res, main = "MA Plot - Treated vs Control", ylim = c(-5, 5))
-dev.off()
-
-# 2. Dispersion plot
-pdf("dispersion_plot_chr3.pdf", width = 8, height = 6)
-plotDispEsts(dds, main = "Dispersion Estimates")
-dev.off()
-
-# 3. PCA plot
+# 1. PCA plot
 vsd <- vst(dds, blind = FALSE)
 pca_data <- plotPCA(vsd, intgroup = "condition", returnData = TRUE)
 percentVar <- round(100 * attr(pca_data, "percentVar"))
@@ -155,7 +147,7 @@ pca_plot <- ggplot(pca_data, aes(x = PC1, y = PC2, color = condition)) +
 
 ggsave("PCA_plot_chr3.pdf", pca_plot, width = 8, height = 6)
 
-# 4. Sample distance heatmap
+# 2. Sample distance heatmap
 sampleDists <- dist(t(assay(vsd)))
 sampleDistMatrix <- as.matrix(sampleDists)
 rownames(sampleDistMatrix) <- paste(vsd$condition, vsd$replicate, sep = "-")
@@ -168,7 +160,7 @@ pheatmap(sampleDistMatrix,
          main = "Sample Distance Heatmap")
 dev.off()
 
-# 5. Volcano plot
+# 3. Volcano plot
 res_df <- as.data.frame(res)
 res_df$gene <- rownames(res_df)
 res_df$significance <- "Not Significant"
@@ -190,7 +182,7 @@ volcano_plot <- ggplot(res_df, aes(x = log2FoldChange, y = -log10(padj), color =
 
 ggsave("volcano_plot_chr3.pdf", volcano_plot, width = 10, height = 8)
 
-# 6. Heatmap of top 50 variable genes
+# 4. Heatmap of top 50 variable genes
 top_var_genes <- head(order(rowVars(assay(vsd)), decreasing = TRUE), 50)
 heatmap_data <- assay(vsd)[top_var_genes, ]
 
@@ -211,13 +203,6 @@ dev.off()
 saveRDS(dds, "dds_object_chr3.rds")
 
 # ============================================
-# STEP 12: Session info
-# ============================================
-sink("session_info_chr3.txt")
-sessionInfo()
-sink()
-
-# ============================================
 # Final summary
 # ============================================
 cat("\n", rep("=", 50), "\n", sep="")
@@ -227,11 +212,3 @@ cat("\nInput: featurecounts_chr3.txt\n")
 cat("Number of samples:", ncol(counts_filtered), "\n")
 cat("Number of genes analyzed:", nrow(res), "\n")
 cat("Number of significant genes (padj < 0.05):", sig_genes, "\n")
-cat("\nOutput files created:\n")
-cat("  - DESeq2_results_chr3.csv\n")
-cat("  - DESeq2_results_shrunk_chr3.csv\n")
-cat("  - DESeq2_significant_genes_chr3.csv\n")
-cat("  - normalized_counts_chr3.csv\n")
-cat("  - dds_object_chr3.rds\n")
-cat("  - Various plots (PDF files)\n")
-cat("  - session_info_chr3.txt\n")
