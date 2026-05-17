@@ -1,6 +1,14 @@
 ######################################################################################################################################
+library(DESeq2)
+
 # Read DESeq2 results
 dds <- readRDS("C:/Users/smart/Documents/Master_Bioinf/Genome_Analysis/Njaponicum_transcriptomics_heat_response/analyses/06_expression/DESeq2/Diagnostics/dds_object_chr3.rds")
+# First extract the DESeq2 results as a data frame
+res <- results(dds)  # This creates a DESeqResults object
+res_df <- as.data.frame(res)  # Convert to regular data frame
+
+# Add gene/transcript IDs as a column (from row names)
+res_df$gene_id <- rownames(res_df)
 
 # Read annotation file and extract header properly
 raw <- read.delim(
@@ -43,9 +51,9 @@ wanted_cols <- intersect(
 
 # Merge DESeq2 results with annotation
 merged <- merge(
-  as.data.frame(res),
+  res_df,
   annotation[, wanted_cols, drop = FALSE],
-  by.x = "row.names",
+  by.x = "gene_id",
   by.y = "query",
   all.x = TRUE
 )
@@ -53,7 +61,7 @@ merged <- merge(
 # Save results
 write.csv(
   merged,
-  "",
+  "DESeq2_results_with_annotation_chr3.csv",
   row.names = FALSE
 )
 
