@@ -1,1 +1,86 @@
-/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/QC/Canu/canu_busco_chr3/short_summary.specific.embryophyta_odb10.canu_busco_chr3.json
+{
+    "parameters": {
+        "out_path": "/crex/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/QC/Canu",
+        "cpu": "2",
+        "force": "False",
+        "restart": "False",
+        "quiet": "False",
+        "download_path": "/sw/data/local/BUSCO_Data/v5",
+        "datasets_version": "odb10",
+        "offline": "True",
+        "download_base_url": "https://busco-data.ezlab.org/v5/data/",
+        "auto-lineage": "False",
+        "auto-lineage-prok": "False",
+        "auto-lineage-euk": "False",
+        "use_augustus": "False",
+        "use_miniprot": "True",
+        "use_metaeuk": "False",
+        "skip_bbtools": "False",
+        "batch_mode": "False",
+        "tar": "False",
+        "opt-out-run-stats": "False",
+        "in": "/home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/assembled_genome/canu/chromosome3_canu.contigs.fasta",
+        "out": "canu_busco_chr3",
+        "mode": "euk_genome_min",
+        "lineage_dataset": "/sw/data/local/BUSCO_Data/v5/lineages/embryophyta_odb10",
+        "main_out": "/crex/proj/uppmax2026-1-61/nobackup/work/Manu/assembled_genome/QC/Canu/canu_busco_chr3",
+        "lineage_results_dir": "run_embryophyta_odb10",
+        "domain": "eukaryota",
+        "orthodb_version": "10.1",
+        "contig_break": "10",
+        "scaffold_composition": "False",
+        "gene_predictor": "miniprot"
+    },
+    "lineage_dataset": {
+        "name": "embryophyta_odb10",
+        "creation_date": "2024-01-08",
+        "number_of_buscos": "1614",
+        "number_of_species": "50"
+    },
+    "versions": {
+        "hmmsearch": 3.4,
+        "bbtools": null,
+        "miniprot_index": "0.18-r281",
+        "miniprot_align": "0.18-r281",
+        "python": [
+            3,
+            12,
+            3,
+            "final",
+            0
+        ],
+        "busco": "5.8.2"
+    },
+    "results": {
+        "one_line_summary": "C:9.3%[S:7.1%,D:2.2%],F:0.5%,M:90.2%,n:1614,E:4.0%",
+        "Complete percentage": 9.3,
+        "Complete BUSCOs": 150,
+        "Single copy percentage": 7.1,
+        "Single copy BUSCOs": 114,
+        "Multi copy percentage": 2.2,
+        "Multi copy BUSCOs": 36,
+        "Fragmented percentage": 0.5,
+        "Fragmented BUSCOs": 8,
+        "Missing percentage": 90.2,
+        "Missing BUSCOs": 1456,
+        "n_markers": 1614,
+        "avg_identity": 0.62,
+        "domain": "eukaryota",
+        "internal_stop_codon_count": 6,
+        "internal_stop_codon_percent": 4.0,
+        "Number of scaffolds": "108",
+        "Number of contigs": "108",
+        "Total length": "21295348",
+        "Percent gaps": "0.000%",
+        "Scaffold N50": "1059192",
+        "Contigs N50": "1059192"
+    },
+    "metrics": {
+        "Number of scaffolds": "108",
+        "Number of contigs": "108",
+        "Total length": "21295348",
+        "Percent gaps": "0.000%",
+        "Scaffold N50": "1059192",
+        "Contigs N50": "1059192"
+    }
+}

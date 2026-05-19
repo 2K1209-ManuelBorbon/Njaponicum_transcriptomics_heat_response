@@ -1,1 +1,3 @@
-/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/transposed_report.tsv
+Assembly	# contigs (>= 0 bp)	# contigs (>= 1000 bp)	# contigs (>= 5000 bp)	# contigs (>= 10000 bp)	# contigs (>= 25000 bp)	# contigs (>= 50000 bp)	Total length (>= 0 bp)	Total length (>= 1000 bp)	Total length (>= 5000 bp)	Total length (>= 10000 bp)	Total length (>= 25000 bp)	Total length (>= 50000 bp)	# contigs	Largest contig	Total length	GC (%)	N50	N90	auN	L50	L90	# N's per 100 kbp
+CANU	44	44	40	36	26	21	16800886	16800886	16788438	16750045	16578813	16404711	44	3917884	16800886	42.00	2868804	324597	2397619.8	3	9	0.00
+PILON	44	44	40	37	26	21	16829933	16829933	16817471	16789039	16607522	16433154	44	3925227	16829933	41.83	2874048	325141	2402063.4	3	9	0.00

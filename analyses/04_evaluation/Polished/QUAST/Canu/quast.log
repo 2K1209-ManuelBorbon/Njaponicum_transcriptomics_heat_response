@@ -1,1 +1,56 @@
-/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/quast.log
+/sw/arch/eb/software/QUAST/5.2.0-foss-2024a-Python-2.7.18/bin/quast.py -o /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu -t 2 -l CANU,PILON /home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/assembled_genome/canu/chromosome3_canu.contigs.fasta /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Canu/pilon_polished.fasta
+
+Version: 5.2.0
+
+System information:
+  OS: Linux-5.14.0-611.41.1.el9_7.x86_64-x86_64-with-glibc2.34 (linux_64)
+  Python version: 3.12.3
+  CPUs number: 96
+
+Started: 2026-04-27 22:30:41
+
+Logging to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/quast.log
+
+CWD: /crex/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu
+Main parameters: 
+  MODE: default, threads: 2, min contig length: 500, min alignment length: 65, min alignment IDY: 95.0, \
+  ambiguity: one, min local misassembly length: 200, min extensive misassembly length: 1000
+
+WARNING: Can't draw plots: python-matplotlib is missing or corrupted.
+
+Contigs:
+  Pre-processing...
+  1  /home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/assembled_genome/canu/chromosome3_canu.contigs.fasta ==> CANU
+  2  /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Canu/pilon_polished.fasta ==> PILON
+
+2026-04-27 22:30:45
+Running Basic statistics processor...
+  Contig files: 
+    1  CANU
+    2  PILON
+  Calculating N50 and L50...
+    1  CANU, N50 = 1059192, L50 = 5, auN = 1519840.1, Total length = 21295348, GC % = 41.95, # N's per 100 kbp =  0.00
+    2  PILON, N50 = 1072432, L50 = 5, auN = 1529802.0, Total length = 21471677, GC % = 41.87, # N's per 100 kbp =  0.00
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2026-04-27 22:30:47
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 1: Creating Icarus viewers...
+Done
+
+2026-04-27 22:30:48
+RESULTS:
+  Text versions of total report are saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/report.html
+  Icarus (contig browser) is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/icarus.html
+  Log is saved to /proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/quast.log
+
+Finished: 2026-04-27 22:30:48
+Elapsed time: 0:00:06.959969
+NOTICEs: 1; WARNINGs: 1; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

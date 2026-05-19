@@ -1,0 +1,166 @@
+Starting YaHS assay
+[I::main] dump hic links (BAM) to binary file yahs.out.bin
+[W::dump_links_from_bam_file] sequence "contig_25" not found 
+[W::dump_links_from_bam_file] sequence "contig_51" not found 
+[W::dump_links_from_bam_file] sequence "contig_15" not found 
+[W::dump_links_from_bam_file] sequence "contig_98" not found 
+[W::dump_links_from_bam_file] sequence "contig_92" not found 
+[W::dump_links_from_bam_file] sequence "contig_41" not found 
+[W::dump_links_from_bam_file] sequence "contig_75" not found 
+[W::dump_links_from_bam_file] sequence "contig_1" not found 
+[W::dump_links_from_bam_file] sequence "contig_99" not found 
+[W::dump_links_from_bam_file] sequence "contig_30" not found 
+[W::dump_links_from_bam_file] sequence "contig_100" not found 
+[W::dump_links_from_bam_file] sequence "contig_50" not found 
+[W::dump_links_from_bam_file] sequence "contig_102" not found 
+[W::dump_links_from_bam_file] sequence "contig_59" not found 
+[W::dump_links_from_bam_file] sequence "contig_39" not found 
+[W::dump_links_from_bam_file] sequence "contig_77" not found 
+[W::dump_links_from_bam_file] sequence "contig_104" not found 
+[W::dump_links_from_bam_file] sequence "contig_28" not found 
+[W::dump_links_from_bam_file] sequence "contig_31" not found 
+[W::dump_links_from_bam_file] sequence "contig_35" not found 
+[W::dump_links_from_bam_file] sequence "contig_94" not found 
+[W::dump_links_from_bam_file] sequence "contig_32" not found 
+[W::dump_links_from_bam_file] sequence "contig_71" not found 
+[W::dump_links_from_bam_file] sequence "contig_93" not found 
+[W::dump_links_from_bam_file] sequence "contig_5" not found 
+[W::dump_links_from_bam_file] sequence "contig_9" not found 
+[W::dump_links_from_bam_file] sequence "contig_83" not found 
+[W::dump_links_from_bam_file] sequence "contig_10" not found 
+[W::dump_links_from_bam_file] sequence "contig_62" not found 
+[W::dump_links_from_bam_file] sequence "contig_95" not found 
+[W::dump_links_from_bam_file] sequence "contig_79" not found 
+[W::dump_links_from_bam_file] sequence "contig_69" not found 
+[W::dump_links_from_bam_file] sequence "contig_56" not found 
+[W::dump_links_from_bam_file] sequence "contig_29" not found 
+[W::dump_links_from_bam_file] sequence "contig_96" not found 
+[W::dump_links_from_bam_file] sequence "contig_89" not found 
+[W::dump_links_from_bam_file] sequence "contig_60" not found 
+[W::dump_links_from_bam_file] sequence "contig_76" not found 
+[W::dump_links_from_bam_file] sequence "contig_20" not found 
+[W::dump_links_from_bam_file] sequence "contig_101" not found 
+[W::dump_links_from_bam_file] sequence "contig_36" not found 
+[W::dump_links_from_bam_file] sequence "contig_24" not found 
+[W::dump_links_from_bam_file] sequence "contig_54" not found 
+[W::dump_links_from_bam_file] sequence "contig_65" not found 
+[I::dump_links_from_bam_file] 1 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 2 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 3 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 4 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 5 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 6 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 7 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 8 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 9 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 10 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 11 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 12 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 13 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 14 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 15 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 16 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 17 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 18 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 19 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 20 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 21 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 22 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 23 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 24 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 25 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 26 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 27 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 28 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 29 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 30 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 31 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 32 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 33 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 34 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 35 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 36 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 37 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 38 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 39 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 40 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 41 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] 42 million records processed, 0 read pairs 
+[I::dump_links_from_bam_file] position compression n = 0, m = 0, max_m = 134217727
+[I::dump_links_from_bam_file] dumped 0 read pairs from 42693002 records: 0 intra links + 0 inter links 
+[I::calc_avg_cov] sequence coverage stats:
+[I::calc_avg_cov] sequence bases: 16829933
+[I::calc_avg_cov] read bases: 0
+[I::calc_avg_cov] q drop: 0.100
+[I::calc_avg_cov] average read coverage: 0.000
+[I::run_yahs] RAM total: 754.715GB
+[I::run_yahs] RAM limit: 11.719GB
+[I::contig_error_break] dist threshold for contig error break: 1000000
+[I::contig_error_break] performed 1 round assembly error correction. Made 0 breaks 
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::print_asm_stats]  N100: 2392 (n = 44)
+[I::run_yahs] scaffolding round 1 resolution = 10000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 1 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 2 resolution = 20000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 2 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 3 resolution = 50000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 3 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 4 resolution = 100000
+[I::run_scaffolding] starting norm estimation...
+[I::run_scaffolding] starting link estimation...
+[I::inter_link_norms] using noise level 0.000
+[I::run_yahs] scaffolding round 4 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] scaffolding round 5 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (7) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 5 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] assembly N50 (2874048) too small.
+[I::run_yahs] do an extra round scaffolding with resolution = 200000
+[I::run_yahs] scaffolding round 6 resolution = 200000
+[I::run_scaffolding] starting norm estimation...
+[E::calc_norms] no enough bands (7) for norm calculation, try a higher resolution
+[W::run_scaffolding] No enough bands for norm calculation... End of scaffolding round.
+[I::run_yahs] scaffolding round 6 done
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::run_yahs] assembly N50 (2874048) too small. End of scaffolding.
+[I::run_yahs] consider running with increased memory limit if there was a memory issue.
+[I::main] writing FASTA file for scaffolds
+[I::write_fasta_file_from_agp] Number sequences: 44
+[I::write_fasta_file_from_agp] Number bases: 16829933
+[I::print_asm_stats] assembly stats:
+[I::print_asm_stats]  N50: 2874048 (n = 3)
+[I::print_asm_stats]  N90: 325141 (n = 9)
+[I::print_asm_stats]  N100: 2392 (n = 44)
+[I::main] Version: 1.2.2
+[I::main] CMD: yahs /proj/uppmax2026-1-61/nobackup/work/Manu/Pilon/Flye/pilon_polished.fasta /proj/uppmax2026-1-61/nobackup/work/Manu/BWA/HiC/Flye/HiC_chr3_namesorted.bam
+[I::main] Real time: 60.344 sec; CPU: 59.290 sec; Peak RSS: 0.021 GB
+YaHS assay done

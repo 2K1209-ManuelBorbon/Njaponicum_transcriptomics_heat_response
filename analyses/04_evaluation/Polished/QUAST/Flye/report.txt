@@ -1,1 +1,25 @@
-/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Flye/report.txt
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    CANU       PILON    
+# contigs (>= 0 bp)         44         44       
+# contigs (>= 1000 bp)      44         44       
+# contigs (>= 5000 bp)      40         40       
+# contigs (>= 10000 bp)     36         37       
+# contigs (>= 25000 bp)     26         26       
+# contigs (>= 50000 bp)     21         21       
+Total length (>= 0 bp)      16800886   16829933 
+Total length (>= 1000 bp)   16800886   16829933 
+Total length (>= 5000 bp)   16788438   16817471 
+Total length (>= 10000 bp)  16750045   16789039 
+Total length (>= 25000 bp)  16578813   16607522 
+Total length (>= 50000 bp)  16404711   16433154 
+# contigs                   44         44       
+Largest contig              3917884    3925227  
+Total length                16800886   16829933 
+GC (%)                      42.00      41.83    
+N50                         2868804    2874048  
+N90                         324597     325141   
+auN                         2397619.8  2402063.4
+L50                         3          3        
+L90                         9          9        
+# N's per 100 kbp           0.00       0.00     

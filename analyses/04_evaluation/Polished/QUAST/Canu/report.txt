@@ -1,1 +1,25 @@
-/proj/uppmax2026-1-61/nobackup/work/Manu/Polished_QC/QUAST/Canu/report.txt
+All statistics are based on contigs of size >= 500 bp, unless otherwise noted (e.g., "# contigs (>= 0 bp)" and "Total length (>= 0 bp)" include all contigs).
+
+Assembly                    CANU       PILON    
+# contigs (>= 0 bp)         108        108      
+# contigs (>= 1000 bp)      108        108      
+# contigs (>= 5000 bp)      95         95       
+# contigs (>= 10000 bp)     92         92       
+# contigs (>= 25000 bp)     90         90       
+# contigs (>= 50000 bp)     81         81       
+Total length (>= 0 bp)      21295348   21471677 
+Total length (>= 1000 bp)   21295348   21471677 
+Total length (>= 5000 bp)   21254017   21429779 
+Total length (>= 10000 bp)  21237740   21413356 
+Total length (>= 25000 bp)  21204311   21379675 
+Total length (>= 50000 bp)  20814592   20986613 
+# contigs                   108        108      
+Largest contig              3945610    3971916  
+Total length                21295348   21471677 
+GC (%)                      41.95      41.87    
+N50                         1059192    1072432  
+N90                         74976      75285    
+auN                         1519840.1  1529802.0
+L50                         5          5        
+L90                         55         55       
+# N's per 100 kbp           0.00       0.00     
