@@ -1,0 +1,33 @@
+GO ENRICHMENT SUMMARY
+====================
+
+Date: Thu May 21 00:47:42 2026 
+
+GENE STATISTICS
+  Total significant genes: 535 
+  Significant genes with GO: 224 (41.9%)
+  Up-regulated with GO: 94 
+  Down-regulated with GO: 130 
+
+ALL SIGNIFICANT GENES ( 224 genes)
+                   ID     Description   p.adjust Count
+GO:0005886 GO:0005886 plasma membrane 0.01664426    69
+
+UP-REGULATED GENES ( 94 genes)
+                   ID               Description   p.adjust Count
+GO:0044445 GO:0044445                GO:0044445 0.01199110    12
+GO:0022626 GO:0022626        cytosolic ribosome 0.02484705    10
+GO:1990904 GO:1990904 ribonucleoprotein complex 0.02484705    16
+GO:0006457 GO:0006457           protein folding 0.02825896     8
+GO:0005840 GO:0005840                  ribosome 0.03573838    11
+
+DOWN-REGULATED GENES ( 130 genes)
+                   ID                                                     Description     p.adjust Count
+GO:0005886 GO:0005886                                                 plasma membrane 0.0002367002    50
+GO:0071944 GO:0071944                                                  cell periphery 0.0009193590    53
+GO:0051273 GO:0051273                                   beta-glucan metabolic process 0.0250542319     7
+GO:0016773 GO:0016773          phosphotransferase activity, alcohol group as acceptor 0.0250542319    19
+GO:0016301 GO:0016301                                                 kinase activity 0.0250542319    20
+GO:0016772 GO:0016772 transferase activity, transferring phosphorus-containing groups 0.0269477404    22
+GO:0004672 GO:0004672                                         protein kinase activity 0.0429020875    16
+
