@@ -1,0 +1,39 @@
+merqury/20240628-1ad7c32: See 'module help merqury/20240628-1ad7c32' for important usage information
+Starting Hifiasm assembly
+Input reads: /home/mabo3966/Genome_Analysis/Njaponicum_transcriptomics_heat_response/data/raw_data/reads/genomics_chr3_data/chr3_clean_nanopore.fq.gz
+[M::ha_analyze_count] lowest: count[5] = 6401
+[M::ha_analyze_count] highest: count[6] = 21580658
+[M::ha_hist_line]     2: ****************************************************************************************************> 2655850104
+[M::ha_hist_line]     3: * 152971
+[M::ha_hist_line]     4: ****************************************************************************************************> 117077805
+[M::ha_hist_line]     5:  6401
+[M::ha_hist_line]     6: **************************************************************************************************** 21580658
+[M::ha_hist_line]  rest: ****************************************************************************************************> 33193503
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: count[8] = 9483804
+[M::ha_ft_gen] peak_hom: 8; peak_het: 6
+[M::ha_ct_shrink::601.017*1.40] ==> counted 7586039 distinct minimizer k-mers
+[M::ha_ft_gen::604.567*1.40@49.231GB] ==> filtered out 7586039 k-mers occurring 40 or more times
+[M::ha_opt_update_cov] updated max_n_chain to 100
+[M::yak_count] collected 305390432 minimizers
+[M::ha_pt_gen::1040.112*1.42] ==> counted 130665049 distinct minimizer k-mers
+[M::ha_pt_gen] count[4095] = 0 (for sanity check)
+[M::ha_analyze_count] lowest: count[5] = 0
+[M::ha_analyze_count] highest: count[6] = 1572786
+[M::ha_hist_line]     2: ****************************************************************************************************> 120114298
+[M::ha_hist_line]     3:  0
+[M::ha_hist_line]     4: ****************************************************************************************************> 6738435
+[M::ha_hist_line]     5:  0
+[M::ha_hist_line]     6: **************************************************************************************************** 1572786
+[M::ha_hist_line]  rest: ****************************************************************************************************> 2239530
+[M::ha_analyze_count] left: none
+[M::ha_analyze_count] right: count[8] = 753208
+[M::ha_pt_gen] peak_hom: 8; peak_het: 6
+[M::ha_ct_shrink::1046.014*1.41] ==> counted 130665049 distinct minimizer k-mers
+[M::ha_pt_gen::] counting in normal mode
+[M::yak_count] collected 305390432 minimizers
+[M::ha_pt_gen::1435.903*1.32] ==> indexed 305390432 positions, counted 130665049 distinct minimizer k-mers
+[M::pec::5350.717] # bases: 9864143852; # corrected bases: 749378
+[M::pec::2.831] # exact o: 749148; # non-exact o: 22540
+[M::ha_assemble::6811.160*1.06@49.231GB] ==> corrected reads for round 1
+[M::ha_assemble] # bases: 9864143852; # corrected bases: 749378
