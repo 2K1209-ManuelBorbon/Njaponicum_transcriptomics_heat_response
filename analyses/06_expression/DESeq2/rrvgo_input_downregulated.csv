@@ -1,0 +1,8 @@
+"go_id","p_value","description","ontology"
+"GO:0005886",0.00023670016002858,"plasma membrane","BP"
+"GO:0071944",0.000919359036941906,"cell periphery","CC"
+"GO:0051273",0.025054231899854,"beta-glucan metabolic process","CC"
+"GO:0016773",0.025054231899854,"phosphotransferase activity, alcohol group as acceptor","MF"
+"GO:0016301",0.025054231899854,"kinase activity","MF"
+"GO:0016772",0.0269477404482663,"transferase activity, transferring phosphorus-containing groups","MF"
+"GO:0004672",0.042902087512185,"protein kinase activity","BP"

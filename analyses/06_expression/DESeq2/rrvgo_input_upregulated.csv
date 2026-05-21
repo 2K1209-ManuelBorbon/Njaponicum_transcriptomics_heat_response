@@ -1,0 +1,6 @@
+"go_id","p_value","description","ontology"
+"GO:0044445",0.0119910982905515,"GO:0044445","CC"
+"GO:0022626",0.0248470494699307,"cytosolic ribosome","CC"
+"GO:1990904",0.0248470494699307,"ribonucleoprotein complex","CC"
+"GO:0006457",0.0282589558515563,"protein folding","BP"
+"GO:0005840",0.0357383750200211,"ribosome","BP"
